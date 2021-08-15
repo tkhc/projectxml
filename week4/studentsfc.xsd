@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Tutorial case
+
+   Student list schema - flat catalog design (salami slice)
+
+   Filename:         studentsfc.xsd
+   Supporting Files:
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+   <xs:element name="students">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="student" minOccurs="1" maxOccurs="unbounded" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="student">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="lastName" />
+            <xs:element ref="firstName" />
+            <xs:element ref="examDate" />
+            <xs:element ref="pretest" />
+            <xs:element ref="score" minOccurs="0" maxOccurs="unbounded" />
+         </xs:sequence>
+         <xs:attribute ref="stuID" use="required" />
+         <xs:attribute ref="courseID" use="required" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="lastName" type="xs:string" />
+   <xs:element name="firstName" type="xs:string" />
+   <xs:element name="examDate" type="xs:date" />
+   <xs:element name="score" type="pretestType" />
+   <xs:element name="pretest">
+      <xs:complexType>
+         <xs:simpleContent>
+            <xs:extension base="pretestType">
+               <xs:attribute ref="level" use="required" />
+            </xs:extension>
+         </xs:simpleContent>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:simpleType name="pretestType">
+      <xs:restriction base="xs:decimal">
+         <xs:minExclusive value="0" />
+         <xs:maxExclusive value="80" />
+      </xs:restriction>
+   </xs:simpleType>
+
+   <xs:attribute name="stuID">
+      <xs:simpleType>
+         <xs:restriction base="xs:ID">
+            <xs:pattern value="I\d{4}-\d{3}" />
+         </xs:restriction>
+      </xs:simpleType>
+   </xs:attribute>
+
+   <xs:attribute name="courseID">
+      <xs:simpleType>
+         <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{4}-\d{3}-\d" />
+         </xs:restriction>
+      </xs:simpleType>
+   </xs:attribute>
+
+   <xs:attribute name="level">
+      <xs:simpleType>
+         <xs:restriction base="xs:string">
+            <xs:enumeration value="L" />
+            <xs:enumeration value="M" />
+            <xs:enumeration value="H" />
+         </xs:restriction>
+      </xs:simpleType>
+   </xs:attribute>
+
+</xs:schema>

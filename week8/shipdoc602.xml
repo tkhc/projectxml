@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Tutorial Case
+
+   Shipping Document for Shipment 602
+
+   Filename:         ship602.xml
+
+-->
+
+<shipment shipID="Ship602">
+   <shipDateTime>2017-04-03T11:58:00</shipDateTime>
+   <dispatcher>Garson, William</dispatcher>
+   <fromStreet>411 Business Drive</fromStreet>
+   <fromCity>Louisville, KY</fromCity>
+   <fromState>KY</fromState>
+   <fromZip>40216</fromZip>
+   <toName>Tracy Malloy</toName>
+   <toStreet>54 South Delmare Lane</toStreet>
+   <toCity>Twin Brooks</toCity>
+   <toState>SD</toState>
+   <toZip>57269</toZip>
+   <custID>cust1781</custID>
+   <trackingNumber>113468214</trackingNumber>
+   <shipType>Priority</shipType>
+   <weight>6.7 lbs</weight>
+   <items>
+      <itemID qty="3">LL581</itemID>
+   </items>
+</shipment>

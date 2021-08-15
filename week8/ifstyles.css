@@ -1,0 +1,126 @@
+/*
+   New Perspectives on XML, 3rd Edition
+   Tutorial 8
+   Tutorial Case
+   Illuminated Fixtures style sheet
+
+
+   Filename:         ifstyles.css
+   Supporting Files: none
+*/
+
+/* Default styles */
+
+* {
+   margin: 0px;
+}
+
+header, section, article {
+   display: block;
+}
+
+
+
+/* Body styles */
+body {
+   font-family: "Courier New", Courier, monospace;
+   background-color: rgb(178, 210,119);
+}
+
+div#wrap {
+   background-color: white;
+   margin: 0px auto;
+   width: 1200px;
+   border-left: 2px solid rgb(151, 151, 151);
+   border-right: 2px solid rgb(151, 151, 151);
+
+   box-shadow: rgb(51, 51, 51) 10px 0px 30px,
+               rgb(51, 51, 51) -10px 0px 30px;
+   padding-bottom: 50px;
+}
+
+header {
+   border-bottom: 2px solid rgb(151, 151, 151);
+}
+
+aside {
+   float: right;
+   width: 400px;
+   margin: 20px 75px 0px 0px;
+}
+
+div#wrap >  h1 {
+   font-size: 2.5em;
+   letter-spacing: 0.12em;
+   font-weight: normal;
+   color: rgb(51, 51, 51);
+   text-shadow: black 1px 1px 1px;
+   padding: 15px 0px;  
+   text-align: left;
+   margin-left: 80px;
+   clear: right;
+}
+
+div#wrap > h2 {
+   font-size: 1em;
+   letter-spacing: 0.03em;
+   margin: 20px 0px 0px 80px;
+   padding: 0px;
+}
+
+div#wrap > p {
+   margin: 0px 0px 0px 80px;
+   font-size: 0.9em;
+}
+
+table#shipmentList {
+   margin-left: 80px;
+   margin-top: 20px;
+}
+
+table#shipmentList td, th {
+   text-align: left;
+   vertical-align: top;
+   font-size: 0.75em;
+   font-weight: normal;
+}
+
+table#shipmentList th {
+   border-bottom: 1px dashed rgb(151, 151, 151);
+}
+
+table#shipmentList td {
+   padding: 7px 7px 15px 7px;
+}
+
+table#shipmentList th {
+   padding: 7px;
+}
+
+
+table#shipmentList td.IDcell {
+   width: 60px;
+}
+
+table#shipmentList td.dateCell {
+   width: 140px;
+}
+
+
+table#shipmentList tr td.itemCell {
+   width: 300px;
+}
+
+table#shipmentList tr td.custCell {
+   width: 150px;
+}
+
+table#shipmentList tr td.serviceCell {
+   width: 60px;
+}
+
+
+
+
+
+

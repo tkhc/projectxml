@@ -1,0 +1,37 @@
+
+student {
+  display: block;
+  width: 600px; 
+  color: blue; 
+  text-align: left;
+  font-size: 10pt; 
+  border: 3px solid blue; 
+  background-color: ivory;
+  margin: 10px; 
+  padding: 10px;
+}
+
+stuID	{
+  font-size: 16pt; 
+  color: blue;
+  font-weight: bold;
+}
+
+dateOfEnrollment, credits {
+  display: block;
+  color: blue;
+  margin: 10px;
+}
+
+comment, gpa{
+  display: inline-block; 
+  font-weight: bold;
+  color: black;
+  font-family: Times New Roman, Times, Serif;
+  margin: 10px;
+}
+degree {
+  display: block;
+  font-family: Times New Roman, Times, Serif;
+  margin-left: 10px;
+}

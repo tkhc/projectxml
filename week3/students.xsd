@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Tutorial Case
+
+   Austin Technical College information technology schema
+
+   Filename:          students.xsd
+   Supporting Files:  students.xml
+
+   Author: Terrence Chan 
+   Date: 2/11/2021
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:attribute name="stuID" type="siType" />
+    <xs:element name="lastName" type="xs:string" />
+    <xs:element name="firstName" type="xs:string" />
+    <xs:element name="dateOfEnrollment" type="xs:date" />
+    <xs:element name="credits" type="creditsType" />
+    <xs:element name="comment" type="xs:string" />
+    <xs:attribute name="degree" type="degreeType" />
+
+    <xs:simpleType name="siType">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="SI\d{3}-\d{3}-\d{2}" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="gpa">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="gpaType">
+                    <xs:attribute ref="degree" use="required" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="creditsType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="gpaType">
+        <xs:restriction base="xs:decimal">
+            <xs:minExclusive value="0" />
+            <xs:maxInclusive value="4" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="degreeType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="MP" />
+            <xs:enumeration value="WPA" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="student">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="lastName" />
+                <xs:element ref="firstName" />
+                <xs:element ref="dateOfEnrollment" />
+                <xs:element ref="credits" />
+                <xs:element ref="comment" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="gpa" />
+            </xs:sequence>
+
+            <xs:attribute ref="stuID" use="required" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="students">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="student" minOccurs="1" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

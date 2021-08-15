@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div style="text-align: center;">
+      <h1>Week 9 Tutorial</h1>
+      <h2>INFO 3060 XML | Terrence Chan</h2>
+    </div>
+  </header>
+  <main>
+    <div class="container mt-5">
+      <div>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Result</a>
+            <div class="dropdown-menu">
+              <a href="gjc_results1.xml">Result 1</a>
+              <a href="gjc_results2.xml">Result 2</a>
+              <a href="gjc_results3.xml">Result 3</a>
+              <a href="gjc_results4.xml">Result 4</a>
+              <a href="gjc_results5.xml">Result 5</a>
+              <a href="gjc_results6.xml">Result 6</a>
+              <a href="gjc_results7.xml">Result 7</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Query</a>
+            <div class="dropdown-menu">
+              <a href="gjc_query1.xq">Query 1</a>
+              <a href="gjc_query2.xq">Query 2</a>
+              <a href="gjc_query3.xq">Query 3</a>
+              <a href="gjc_query4.xq">Query 4</a>
+              <a href="gjc_query5.xq">Query 5</a>
+              <a href="gjc_query6.xq">Query 6</a>
+              <a href="gjc_query7.xq">Query 7</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="container mt-5">
+        <h4 style="text-align: center;">Summary</h4>
+        <p>I found that writing out the queries was not the most time consuming part but evaluating the queries was.
+          Since I
+          am using visual studio code extensions for all my previous tutorials, I thought I could find something that
+          work
+          with this tutorial too. I downloaded two extensions (XML Tools and MarkLogic Developer Tools), neither of them
+          work. Then I realized I was missing the XQuery execution engine. I didn't want to pay for <a
+            href="https://www.altova.com/xmlspy-xml-editor/xquery-editor">Altova</a> (the website is also confusing to
+          look
+          at), I ended up downloading <a href="https://basex.org/download/">BaseX</a> instead. The engine still didn't
+          work
+          with the extension but luckily BaseX came with a GUI. All I have to do is open the files and hit execute, it
+          would
+          show me the status of the query. If there is an error, it would display the error. BaseX really helped me to
+          see
+          where the typos or syntax errors were and the rest of process was very smooth.</p>
+        <img src="BaseX GUI.GIF" alt="basex" class="img-fluid" ;>
+        <fig>BaseX GUI</fig>
+      </div>
+
+
+  </main>
+  <footer class="mt-5 pt-5 pb-5" style="background: rgb(180, 204, 186); text-align: center;">Week 9 Tutorial and Summary
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

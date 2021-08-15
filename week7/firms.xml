@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 8
+   Tutorial Case
+
+   List of firms
+
+   Filename:         firms.xml
+   Terrence Chan 3/12/2021
+-->
+
+<firms>
+   <firm id="f101">
+      <name>Acer Realty</name>
+      <street>400 Hawthorne Avenue</street>
+      <city>Longmont</city>
+      <state>CO</state>
+      <zip>80504</zip>
+      <phone>(303) 555-9092</phone>
+      <web>http://www.example.com/acerrealty</web>
+   </firm>
+   <firm id="f102">
+      <name>Toffer Realty</name>
+      <street>311 Allen Court</street>
+      <city>Berthoud</city>
+      <state>CO</state>
+      <zip>80513</zip>
+      <phone>(970) 555-5081</phone>
+      <web>http://www.example.com/tofferrealty</web>
+   </firm>
+   <firm id="f103">
+      <name>Carson Homes</name>
+      <street>981 Frontage Road</street>
+      <city>Longmont</city>
+      <state>CO</state>
+      <zip>80503</zip>
+      <phone>(303) 555-0912</phone>
+      <web>http://www.example.com/carsonhomes</web>
+   </firm>
+   <firm id="f104">
+      <name>The Rawlings Company</name>
+      <street>678 Grimble Street</street>
+      <city>Lyons</city>
+      <state>CO</state>
+      <zip>80540</zip>
+      <phone>(970) 555-6780</phone>
+      <web>http://www.example.com/rawlingscompany</web>
+   </firm>
+   <firm id="f105">
+      <name>Premier Realty</name>
+      <street>87 Crawford Court</street>
+      <city>Fort Lupton</city>
+      <state>CO</state>
+      <zip>80622</zip>
+      <phone>(303) 555-8915</phone>
+      <web>http://www.example.com/premierrealty</web>
+   </firm>
+</firms>

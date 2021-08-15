@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="orders.css" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Tutorial Case
+
+   Map Finds For You report
+   Filename:         orders.xml
+   
+   Author: Terrence Chan 
+   Date: 2/3/2021
+-->
+<!DOCTYPE customers
+[
+    <!-- Item code description inserted as general entities -->
+    <!ENTITY WM100PL "World map outlining countries and capitals; poster-size, laminated paper">
+    <!ENTITY WM101P "World map outlining countries and capitals; poster-size, paper">
+    <!ENTITY WM105L "World map outlining countries and populations; laminated paper">
+    <!ENTITY WM140P "World map focusing on land and water features; paper roll">
+    <!ENTITY H115E "United States hiking map including elevations; electronic">
+    <!ENTITY H115F "United States hiking map including elevations; folded paper">
+
+    <!ELEMENT customers (customer+)>
+
+    <!ELEMENT customer (name, address, phone, email?, orders)>
+    <!ATTLIST customer custID ID #REQUIRED>
+
+    <!ELEMENT name (#PCDATA)>
+    <!ATTLIST name title (Mr. | Mrs. | Ms.) #IMPLIED>
+
+    <!ELEMENT address (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT orders (order+)>
+
+    <!ELEMENT order (orderDate, items)>
+    <!ATTLIST order orderID ID #REQUIRED>
+    <!ATTLIST order orderBy IDREF #REQUIRED>
+
+    <!ELEMENT orderDate (#PCDATA)>
+    <!ELEMENT items (item+)>
+
+    <!ELEMENT item (desc, itemPrice, itemQty)>
+    <!ATTLIST item itemNumber CDATA #REQUIRED>
+
+    <!ELEMENT desc (#PCDATA)>
+    <!ELEMENT itemPrice (#PCDATA)>
+    <!ATTLIST itemPrice saleItem (Y | N) "N">
+    <!ELEMENT itemQty (#PCDATA)>
+
+]>
+<customers>
+   <customer custID="cust201">
+      <name title="Mr.">John Michael</name>
+      <address>
+         <![CDATA[
+         41 West Plankton Avenue
+         Orlando, FL  32820
+         ]]>
+      </address>
+      <phone>(407) 555-3476</phone>
+      <email>jk@example.net</email>
+      <orders>
+         <order orderID="or1089" orderBy="cust201">
+            <orderDate>8/11/2017</orderDate>
+            <items>
+               <item itemNumber="WM100PL">
+                  <desc>&WM100PL;</desc>
+                  <itemPrice saleItem="N">39.95</itemPrice>
+                  <itemQty>1</itemQty>
+               </item>
+               <item itemNumber="WM101P">
+                  <desc>&WM101P;</desc>
+                  <itemPrice saleItem="Y">19.90</itemPrice>
+                  <itemQty>2</itemQty>
+               </item>
+            </items>
+         </order>
+      </orders>
+   </customer>
+
+   <customer custID="cust202">
+      <name title="Mr.">Dean Abernath</name>
+      <address>
+         <![CDATA[
+         200 Bear Avenue
+         Front Royal, VA 22630
+         ]]>
+      </address>
+      <phone>(540) 555-1788</phone>
+      <email>dabernath@example.net</email>
+      <orders>
+         <order orderID="or1021" orderBy="cust202">
+            <orderDate>8/1/2017</orderDate>
+            <items>
+               <item itemNumber="WM100PL">
+                   <desc>&WM100PL;</desc>
+                  <itemPrice>29.95</itemPrice>
+                  <itemQty>1</itemQty>
+               </item>
+               <item itemNumber="WM105L">
+                   <desc>&WM105L;</desc>
+                  <itemPrice>19.95</itemPrice>
+                  <itemQty>1</itemQty>
+               </item>
+            </items>
+         </order>
+         <order orderID="or1122" orderBy="cust202">
+            <orderDate>10/1/2017</orderDate>
+            <items>
+               <item itemNumber="H115E">
+                   <desc>&H115E;</desc>
+                  <itemPrice saleItem="Y">24.90</itemPrice>
+                  <itemQty>2</itemQty>
+               </item>
+               <item itemNumber="H115F">
+                   <desc>&H115F;</desc>
+                  <itemPrice saleItem="N">14.95</itemPrice>
+                  <itemQty>1</itemQty>
+               </item>
+            </items>
+         </order>
+      </orders>
+   </customer>
+
+   <customer custID="cust203">
+      <name>Riverfront High School</name>
+      <address>
+         <![CDATA[
+         1950 West Magnolia Drive
+         River Falls, WI 54022
+         ]]>
+      </address>
+      <phone>(715) 555-4022</phone>
+      <orders>
+         <order orderID="or1120" orderBy="cust203">
+            <orderDate>9/15/2017</orderDate>
+            <items>
+               <item itemNumber="WM140P">
+                   <desc>&WM140P;</desc>
+                  <itemPrice>78.90</itemPrice>
+                  <itemQty>2</itemQty>
+               </item>
+            </items>
+         </order>
+      </orders>
+   </customer>
+</customers>

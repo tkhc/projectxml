@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+   <order orderID="Ship601">
+      <orderDate>2017-04-03T09:45:00</orderDate>
+      <shipType>Expedited</shipType>
+      <items>
+         <itemID qty="1">LL203</itemID>
+         <itemID qty="2">LL681</itemID>
+         <itemID qty="1">LL223</itemID>
+      </items>
+      <custID>cust8646</custID>
+   </order>
+   <order orderID="Ship602">
+      <orderDate>2017-04-03T11:58:00</orderDate>
+      <shipType>Priority</shipType>
+      <items>
+         <itemID qty="3">LL581</itemID>
+      </items>
+      <custID>cust1781</custID>
+   </order>
+   <order orderID="Ship603">
+      <orderDate>2017-04-03T15:14:00</orderDate>
+      <shipType>Standard</shipType>
+      <items>
+         <itemID qty="2">LL581</itemID>
+         <itemID qty="3">LL180</itemID>
+         <itemID qty="1">LL677</itemID>
+      </items>
+      <custID>cust4031</custID>
+   </order>
+   <order orderID="Ship604">
+      <orderDate>2017-04-03T17:26:00</orderDate>
+      <shipType>Standard</shipType>
+      <items>
+         <itemID qty="2">LL434</itemID>
+         <itemID qty="2">LL804</itemID>
+         <itemID qty="1">LL581</itemID>
+         <itemID qty="1">LL434</itemID>
+         <itemID qty="1">LL973</itemID>
+      </items>
+      <custID>cust4373</custID>
+   </order>
+   <order orderID="Ship605">
+      <orderDate>2017-04-04T10:43:00</orderDate>
+      <shipType>Expedited</shipType>
+      <items>
+         <itemID qty="1">LL511</itemID>
+      </items>
+      <custID>cust4031</custID>
+   </order>
+   <order orderID="Ship606">
+      <orderDate>2017-04-04T12:18:00</orderDate>
+      <shipType>Expedited</shipType>
+      <items>
+         <itemID qty="1">LL489</itemID>
+         <itemID qty="2">LL804</itemID>
+         <itemID qty="2">LL157</itemID>
+         <itemID qty="1">LL612</itemID>
+      </items>
+      <custID>cust8646</custID>
+   </order>
+   <order orderID="Ship607">
+      <orderDate>2017-04-04T15:55:00</orderDate>
+      <shipType>Standard</shipType>
+      <items>
+         <itemID qty="1">LL223</itemID>
+         <itemID qty="1">LL511</itemID>
+         <itemID qty="1">LL282</itemID>
+      </items>
+      <custID>cust1781</custID>
+   </order>
+   <order orderID="Ship608">
+      <orderDate>2017-04-04T17:21:00</orderDate>
+      <shipType>Expedited</shipType>
+      <items>
+         <itemID qty="1">LL587</itemID>
+         <itemID qty="2">LL282</itemID>
+         <itemID qty="8">LL265</itemID>
+      </items>
+      <custID>cust4653</custID>
+   </order>
+   <order orderID="Ship609">
+      <orderDate>2017-04-05T08:22:00</orderDate>
+      <shipType>Standard</shipType>
+      <items>
+         <itemID qty="7">LL170</itemID>
+      </items>
+      <custID>cust1781</custID>
+   </order>
+   <order orderID="Ship610">
+      <orderDate>2017-04-05T11:14:00</orderDate>
+      <shipType>Priority</shipType>
+      <items>
+         <itemID qty="1">LL886</itemID>
+         <itemID qty="3">LL579</itemID>
+         <itemID qty="2">LL844</itemID>
+      </items>
+      <custID>cust4031</custID>
+   </order>
+</orders>

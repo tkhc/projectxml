@@ -1,0 +1,37 @@
+
+customers {
+  display: block;
+  width: 600px; 
+  color: blue; 
+  text-align: left;
+  font-size: 10pt; 
+  border: 3px solid blue; 
+  background-color: ivory;
+  margin: 10px; 
+  padding: 10px;
+}
+
+name	{
+  font-size: 16pt; 
+  color: blue;
+  font-weight: bold;
+}
+
+address, phone, email {
+  display: block;
+  color: red;
+  margin: 10px;
+}
+
+orders, orderDate{
+  display: inline-block; 
+  font-weight: bold;
+  color: black;
+  font-family: Times New Roman, Times, Serif;
+  margin: 10px;
+}
+items, itemNumber {
+  display: block;
+  font-family: Times New Roman, Times, Serif;
+  margin-left: 10px;
+}

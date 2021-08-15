@@ -1,0 +1,43 @@
+/*
+   New Perspectives on HTML, CSS, and XML
+   Tutorial 14
+   Tutorial case
+
+   Filename: course.css
+
+   This file contains styles used in the psatstudents.xml file.
+*/
+@namespace "http://example.com/higheredtestprep/course/ns";
+
+course {
+   display: block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12pt;
+}
+description {
+   display: block;
+   width: 400px;
+   color: blue;
+   text-align: center;
+   border: 3px solid blue;
+   background-color: ivory;
+   margin: 10px;
+   padding: 15px;
+}
+name {
+   display: block;
+   margin: 12px 0 0 12px;
+}
+title, session  {
+   font-size: 18pt;
+   color: green;
+   font-weight: bold;
+}
+lastName, firstName {
+   display: inline-block;
+   font-family: Times New Roman, Times, serif;
+   margin-left: 12px;
+   font-size: 16pt;
+   color: black;
+   font-weight: bold;
+}

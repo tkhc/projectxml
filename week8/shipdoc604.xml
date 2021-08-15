@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Tutorial Case
+
+   Shipping Document for Shipment 604
+
+   Filename:         ship604.xml
+
+-->
+
+<shipment shipID="Ship604">
+   <shipDateTime>2017-04-03T17:26:00</shipDateTime>
+   <dispatcher>Taylor, Linda</dispatcher>
+   <fromStreet>411 Business Drive</fromStreet>
+   <fromCity>Louisville, KY</fromCity>
+   <fromState>KY</fromState>
+   <fromZip>40216</fromZip>
+   <toName>Helen Rodrigo</toName>
+   <toStreet>644 West 100th Street</toStreet>
+   <toCity>Orange City</toCity>
+   <toState>FL</toState>
+   <toZip>32763</toZip>
+   <custID>cust4373</custID>
+   <trackingNumber>113468471</trackingNumber>
+   <shipType>Standard</shipType>
+   <weight>14.1 lbs</weight>
+   <items>
+      <itemID qty="2">LL434</itemID>
+      <itemID qty="2">LL804</itemID>
+      <itemID qty="1">LL581</itemID>
+      <itemID qty="1">LL434</itemID>
+      <itemID qty="1">LL973</itemID>
+   </items>
+</shipment>

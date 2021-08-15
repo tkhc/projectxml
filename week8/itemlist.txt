@@ -1,0 +1,42 @@
+itemID,item description,item size,item price
+LL511,EcoLight 702107 - 7.5 Watt S11 Light Bulb,12-Pack,11.45
+LL467,Dearborn 417071 Compact Fluorescent 13-Watt,8-Pack,15.28
+LL729,J5 40 Watt Globe G25 Light Bulb,6-Pack,6.91
+LL359,LMC Lighting 75368 Spiral Compact Fluorescent Bulb,6-Pack,30.25
+LL282,Wittmore 10489 60-Watt Household Bulb,24-Pack,26.26
+LL856,Dearborn 423798 Indoor Flood LED Light Bulb,12-Pack,20.97
+LL515,100 Watt LMC Soft White Incandescent Light Bulb,48-Pack,47.99
+LL102,EcoLight 14-Watt Fluorescent Light Bulbs,4-Pack,10.65
+LL587,EcoLight 14-Watt LED Flood Light Bulb,12-Pack,41.23
+LL154,Dearborn Brand Halogen Light Bulb 40Watt,10-Pack,15.88
+LL170,LMC Lighting 97496 60-Watt Light Bulb with Medium Base,12-Pack,31.25
+LL265,LMC Lighting 41028 60-Watt A19; Soft White,8-Pack,12.95
+LL579,40 Watt S11 Intermediate Base,24-Pack,31.95
+LL338,LMC Lighting 97785 50/100/150 3-Way Reveal Light Bulb,6-Pack,33.31
+LL489,J5 23 Watt Compact Fluorescent Spiral Light Bulb,12-Pack,25.99
+LL844,Wittmore 50 Watt Narrow Flood Light Bulb,12-Pack,31.22
+LL886,LMC Remote Controlled Color Changing LED Light Bulb,6-Pack,24.99
+LL974,FTC Electric 40-Watt Tubular Appliance Bulb,4-Pack,12.41
+LL681,Dearborn 272484 Straight T8 Fluorescent Tube,6-Pack,23.41
+LL954,LMC 13-Watt Energy SmartTM,8-Pack,12.56
+LL581,LMC Lighting 20-Watt Frosted Halogen Floodlight Bulb,6-Pack,32.43
+LL421,J5 14-Watt Compact Fluorescent Spiral Light Bulb,6-Pack,20.22
+LL791,EcoLight 85 Watt Spiral Compact Fluorescent,12-Pack,34.21
+LL839,Dearborn Clear 15-Watt Ceiling Fan Light Bulb,6-Pack,13.28
+LL973,LMC Lighting 12982 25G25/W Decorative Bulb,6-Pack,19.88
+LL583,Dearborn Soft White 65-Watt Indoor Flood Light Bulb,12-Pack,28.47
+LL223,EcoLight Silicone Dipped 6W Chandelier Bulb,6-Pack,25.21
+LL224,Hughes Electric LED 15-Watt Warm White Light Bulb,6-Pack,29.95
+LL157,LMC 65 Watt Soft White Floodlight,6-Pack,17.75
+LL804,EcoLight 40 Watt S11 Intermediate Base Light Bulb,12-Pack,12.52
+LL644,J5 Power 900 Lumen LED Light Bulb; 9-watt,6-Pack,19.95
+LL612,EcoLight40-Watt Decorative Globe Candelabra Base Light,10-Pack,10.99
+LL876,Dearborn Circline Fluorescent 32-Watt,3-Pack,28.42
+LL677,LMC Lighting Crystal Clear 60-Watt Light Bulb with Medium Base,20-Pack,22.31
+LL203,LMC Lighting 19378 150-Watt Halogen T3 Light Bulb,4-Pack,19.21
+LL180,EcoLight Westpointe Decorative Chandelier Bent Tip Light Bulb,6-Pack,18.78
+LL367,LMC Lighting 20572 4-Watt Night Light,12-Pack,15.11
+LL507,J5 5 Watt Candelabra Base Christmas Lights,25 Pack,12.98
+LL585,EcoLight White LED C7 Bulb,12-Pack,28.89
+LL108,Ferris Electric 60-Watt A19 Household Bulb,24-Pack,34.21
+LL434,LMC Lighting JC Halogen Light Bulb 10-Watt,20-Pack,11.24

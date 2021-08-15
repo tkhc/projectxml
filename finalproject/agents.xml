@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 8
+   Tutorial Case
+
+   List of agents
+
+   Filename:         agents.xml
+   Terrence Chan 3/12/2021
+-->
+
+<agents>
+   <agent id="a2140">
+      <name>Karen Fawkes</name>
+      <phone>(303) 555-3414</phone>
+      <email>karen_fawkes@example.com/tofferrealty</email>
+   </agent>
+   <agent id="a2141">
+      <name>Linda DeJesus</name>
+      <phone>(970) 555-4140</phone>
+      <email>ldejesus@example.com/carsonhomes</email>
+   </agent>
+   <agent id="a2142">
+      <name>Lawrence Rao</name>
+      <phone>(414) 555-8580</phone>
+      <email>lkrao@example.com/rawlingscompany</email>
+   </agent>
+   <agent id="a2143">
+      <name>Michael Menschen</name>
+      <phone>(970) 555-8918</phone>
+      <email>mkmenschen@example.com/premierrealty</email>
+   </agent>
+   <agent id="a2144">
+      <name>Peter Grumwald</name>
+      <phone>(303) 555-3419</phone>
+      <email>peter_grumwald@example.com/tofferrealty</email>
+   </agent>
+   <agent id="a2145">
+      <name>Cynthia Cho</name>
+      <phone>(970) 555-5432</phone>
+      <email>ckcho@example.com/carsonhomes</email>
+   </agent>
+   <agent id="a2146">
+      <name>Ian Oppelganger</name>
+      <phone>(303) 555-5439</phone>
+      <email>idoppelganger@example.com/carsonhomes</email>
+   </agent>
+   <agent id="a2147">
+      <name>Allan Lee</name>
+      <phone>(303) 555-8900</phone>
+      <email>adlee@example.com/rawlingscompany</email>
+   </agent>
+</agents>

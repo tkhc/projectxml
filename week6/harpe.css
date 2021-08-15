@@ -1,0 +1,195 @@
+/*
+   New Perspectives on XML, 3rd Edition
+   Tutorial 6
+   Tutorial Case
+   Terrence Chan
+   3/4/2021
+   Harpe Gaming Store style sheet
+  
+
+   Filename:         harpe.css
+   Supporting Files: none
+
+*/
+
+/* Default styles */
+
+* {
+   margin: 0px;
+   list-style: none;
+}
+
+header, section, article {
+   display: block;
+}
+
+
+
+/* Body styles */
+body {
+   font-family: Verdana, Geneva, sans-serif;
+   background-color: rgb(211, 121, 121);
+}
+
+div#wrap {
+   background-color: white;
+   margin: 0px auto;
+   width: 1200px;
+   border-left: 2px solid rgb(151, 151, 151);
+   border-right: 2px solid rgb(151, 151, 151);
+
+   box-shadow: rgb(51, 51, 51) 10px 0px 30px,
+               rgb(51, 51, 51) -10px 0px 30px;
+   padding-bottom: 50px;
+}
+
+header {
+   background: -o-linear-gradient( top,rgb(192,61,61) , rgb(51,51,51) 95%); 
+   background: -ms-linear-gradient( top,rgb(192,61,61) , rgb(51,51,51) 95%); 
+   background: -moz-linear-gradient( top,rgb(192,61,61) , rgb(51,51,51) 95%); 
+   background: -webkit-linear-gradient( top,rgb(192,61,61) , rgb(51,51,51) 95%); 
+   background: linear-gradient( top,rgb(192,61,61) , rgb(51,51,51) 95%); 
+}
+
+div#wrap > header > h1 {
+   font-size: 3.6em;
+   letter-spacing: 0.12em;
+   font-weight: normal;
+   color: rgb(151, 151, 151);
+   text-shadow: black 3px 3px 8px,
+                white 0px -2px 0px;
+   margin-left: 100px;
+   padding: 15px 0px;  
+   font-family: 'Century Gothic', sans-serif;
+}
+
+#productSummary {
+   margin: 0px 100px 30px 100px;
+   border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+#productSummary h1 {
+   margin: 20px 0px 2px 320px;
+   font-weight: normal;
+   font-size: 1.8em;
+   letter-spacing: 0.07em;
+   color: rgb(222, 112, 182);
+}
+
+#productSummary h2 {
+   margin: 0px 0px 0px 320px;
+   font-weight: normal;
+   font-size: 0.85em;
+   border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+#productSummary h2 em {
+   color: rgb(116, 158, 242);
+   font-weight: normal;
+   font-style: normal;
+}
+
+#productSummary h3 {
+   font-size: 1.05em;
+   font-weight: normal;
+   color: rgb(204, 34, 142);
+   margin-left: 320px;
+}
+
+
+#productSummary img {
+   float: left;
+   margin: 20px 0px 0px 0px;
+}
+
+#productSummary p {
+   margin: 0px 20px 30px 320px;
+   font-size: 0.9em;
+}
+
+
+
+
+table#summaryTable {
+   margin-left: 320px;
+   font-size: 0.85em;
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+
+table#summaryTable th {
+   text-align: right;
+   padding-right: 8px;
+   font-weight: normal;
+}
+
+table#summaryTable td {
+   color: rgb(131, 91, 91);
+}
+
+
+section#reviews {
+   clear: left;
+   margin: 0px 100px;
+}
+
+section#reviews h1 {
+   margin: 20px 0px;
+   font-weight: normal;
+   font-size: 2em;
+   color: rgb(222, 112, 182);
+}
+
+section#reviews h2 {
+   font-weight: bold;
+   font-size: 1em;
+   margin: 30px 0px 0px 0px;
+}
+
+
+
+table#reviewTable {
+   font-size: 0.85em;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+table#reviewTable th {
+   text-align: left;
+   padding-right: 8px;
+   font-weight: normal;
+}
+
+table#reviewTable td {
+   color: rgb(131, 91, 91);
+}
+
+
+section#reviews p {
+   font-size: 0.85em;
+   margin: 0px 0px 10px 0px;
+}
+
+
+table#barChart {
+   border-collapse: collapse;
+   background-color: rgb(181, 181, 181);
+}
+
+table#barChart th {
+   color: rgb(245, 85, 171);
+   background-color: white;
+   font-weight: bold;
+   text-align: right;
+   font-weight: normal;
+   font-size: 0.80em;
+   height: 18px;
+   padding: 0px 15px 0px 5px;
+ }
+
+table#barChart td {
+   height: 18px;
+   width: 130px;
+   padding: 0px;
+}
+

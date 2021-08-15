@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Tutorial case
+
+   PSAT mathematics exam course
+
+   Filename:         psat.xml
+   Supporting Files: course.xsd
+-->
+
+<course courseID="PSAT-080-5"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="course.xsd">
+
+   <name>
+      <title>PSAT Mathematics Course</title>
+      <session>5</session>
+   </name>
+   <description>
+      This is a focused course for students who
+      have previously taken the PSAT exam as a sophomore
+      but did not receive a desired score on the mathematics
+      portion or students who will be taking the PSAT and
+      wish to strengthen their skills in the mathematics
+      area. Outcomes of the course will be measured using
+      the original PSAT mathematics score compared to a
+      course post-test, or a course pre-test compared to the
+      subsequent PSAT mathematics score.
+   </description>
+   <instructor>
+      <firstName>Rachel</firstName>
+      <lastName>Polygoni</lastName>
+   </instructor>
+
+</course>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Tutorial Case
+
+   Illuminated Fixtures Customer LIst
+
+   Filename:         customers.xml
+   Supporting Files: 
+
+-->
+<customers>
+	<customer custID="cust4334">
+		<firstName>Debra</firstName>
+		<lastName>Munoz</lastName>
+		<street>786 Drummond Lane</street>
+		<city>Mooresboro</city>
+		<state>NC</state>
+		<zip>28114</zip>
+		<phone>(828) 555-3937</phone>
+		<email>d.munoz18@example.com</email>
+	</customer>
+	<customer custID="cust1781">
+		<firstName>Tracy</firstName>
+		<lastName>Malloy</lastName>
+		<street>54 South Delmare Lane</street>
+		<city>Twin Brooks</city>
+		<state>SD</state>
+		<zip>57269</zip>
+		<phone>(605) 555-8588</phone>
+		<email>t.malloy85@example.com</email>
+	</customer>
+	<customer custID="cust3336">
+		<firstName>Howard</firstName>
+		<lastName>Watkins</lastName>
+		<street>715 19th Lane</street>
+		<city>Phoenix</city>
+		<state>AZ</state>
+		<zip>85028</zip>
+		<phone>(602) 555-1138</phone>
+		<email>h.watkins63@example.com</email>
+	</customer>
+	<customer custID="cust2165">
+		<firstName>Betty</firstName>
+		<lastName>Johnson</lastName>
+		<street>100 Le Moyne Street</street>
+		<city>Burns</city>
+		<state>TN</state>
+		<zip>37029</zip>
+		<phone>(615) 555-9659</phone>
+		<email>b.johnson49@example.com</email>
+	</customer>
+	<customer custID="cust4653">
+		<firstName>Timothy</firstName>
+		<lastName>Jones</lastName>
+		<street>224 West Keene Way</street>
+		<city>Carthage</city>
+		<state>AR</state>
+		<zip>71725</zip>
+		<phone>(870) 555-2416</phone>
+		<email>t.jones3@example.com</email>
+	</customer>
+	<customer custID="cust4373">
+		<firstName>Rodrigo</firstName>
+		<lastName>Helen</lastName>
+		<street>644 West 100th Street</street>
+		<city>Orange City</city>
+		<state>FL</state>
+		<zip>32763</zip>
+		<phone>(407) 555-9077</phone>
+		<email>r.horton73@example.com</email>
+	</customer>
+	<customer custID="cust3121">
+		<firstName>Christian</firstName>
+		<lastName>Roark</lastName>
+		<street>106 Ozark Boulevard</street>
+		<city>Driftwood</city>
+		<state>TX</state>
+		<zip>78619</zip>
+		<phone>(512) 555-7062</phone>
+		<email>c.roark96@example.com</email>
+	</customer>
+	<customer custID="cust5009">
+		<firstName>Allan</firstName>
+		<lastName>Ragsdale</lastName>
+		<street>404 Keene Avenue</street>
+		<city>Burt</city>
+		<state>MI</state>
+		<zip>48417</zip>
+		<phone>(989) 555-2526</phone>
+		<email>a.ragsdale70@example.com</email>
+	</customer>
+	<customer custID="cust5779">
+		<firstName>Ruth</firstName>
+		<lastName>Harper</lastName>
+		<street>244 9th Avenue</street>
+		<city>Wardville</city>
+		<state>OK</state>
+		<zip>74576</zip>
+		<phone>(918) 555-8825</phone>
+		<email>r.harper4@example.com</email>
+	</customer>
+	<customer custID="cust8964">
+		<firstName>Rebecca</firstName>
+		<lastName>Castle</lastName>
+		<street>756 7th Avenue</street>
+		<city>Chandler</city>
+		<state>AZ</state>
+		<zip>85224</zip>
+		<phone>(480) 555-5479</phone>
+		<email>r.castle93@example.com</email>
+	</customer>
+	<customer custID="cust3200">
+		<firstName>Shirley</firstName>
+		<lastName>Rodriguez</lastName>
+		<street>624 Hinsdale Street</street>
+		<city>Milton</city>
+		<state>WA</state>
+		<zip>98354</zip>
+		<phone>(253) 555-8925</phone>
+		<email>s.rodriguez50@example.com</email>
+	</customer>
+	<customer custID="cust5463">
+		<firstName>Wesley</firstName>
+		<lastName>Hunter</lastName>
+		<street>633 Railroad Lane</street>
+		<city>Dennis Port</city>
+		<state>MA</state>
+		<zip>02639</zip>
+		<phone>(508) 555-9679</phone>
+		<email>w.hunter20@example.com</email>
+	</customer>
+	<customer custID="cust2706">
+		<firstName>Stanley</firstName>
+		<lastName>Wills</lastName>
+		<street>749 Linder Lane</street>
+		<city>Hopkins</city>
+		<state>MI</state>
+		<zip>49328</zip>
+		<phone>(269) 555-1823</phone>
+		<email>s.wills60@example.com</email>
+	</customer>
+	<customer custID="cust5084">
+		<firstName>Sandra</firstName>
+		<lastName>Henault</lastName>
+		<street>216 Kedvale Street</street>
+		<city>Magnolia</city>
+		<state>AR</state>
+		<zip>71753</zip>
+		<phone>(870) 555-6772</phone>
+		<email>s.henault91@example.com</email>
+	</customer>
+	<customer custID="cust6610">
+		<firstName>Gary</firstName>
+		<lastName>Jones</lastName>
+		<street>64 Gunnison Way</street>
+		<city>Austin</city>
+		<state>TX</state>
+		<zip>78747</zip>
+		<phone>(512) 555-7979</phone>
+		<email>g.jones74@example.com</email>
+	</customer>
+	<customer custID="cust3811">
+		<firstName>Dorothy</firstName>
+		<lastName>Lobdell</lastName>
+		<street>837 10th Street SW</street>
+		<city>Jordan</city>
+		<state>MN</state>
+		<zip>55352</zip>
+		<phone>(952) 555-6407</phone>
+		<email>d.lobdell71@example.com</email>
+	</customer>
+	<customer custID="cust4028">
+		<firstName>Donald</firstName>
+		<lastName>Cook</lastName>
+		<street>751 Saint James Boulevard</street>
+		<city>Marchand</city>
+		<state>PA</state>
+		<zip>15758</zip>
+		<phone>(724) 555-1691</phone>
+		<email>d.cook67@example.com</email>
+	</customer>
+	<customer custID="cust2371">
+		<firstName>William</firstName>
+		<lastName>Keenan</lastName>
+		<street>549 Music Court</street>
+		<city>Hamler</city>
+		<state>OH</state>
+		<zip>43524</zip>
+		<phone>(419) 555-5886</phone>
+		<email>w.keenan14@example.com</email>
+	</customer>
+	<customer custID="cust5856">
+		<firstName>Calvin</firstName>
+		<lastName>Cervantez</lastName>
+		<street>638 Bellevue Boulevard</street>
+		<city>Pico Rivera</city>
+		<state>CA</state>
+		<zip>90660</zip>
+		<phone>(562) 555-8602</phone>
+		<email>c.cervantez45@example.com</email>
+	</customer>
+	<customer custID="cust4562">
+		<firstName>Deloris</firstName>
+		<lastName>Thomas</lastName>
+		<street>258 Cannon Lane</street>
+		<city>Hodges</city>
+		<state>AL</state>
+		<zip>35571</zip>
+		<phone>(205) 555-3059</phone>
+		<email>d.thomas8@example.com</email>
+	</customer>
+	<customer custID="cust1741">
+		<firstName>Mable</firstName>
+		<lastName>Hudgins</lastName>
+		<street>867 11th Street</street>
+		<city>Albuquerque</city>
+		<state>NM</state>
+		<zip>87116</zip>
+		<phone>(505) 555-8439</phone>
+		<email>m.hudgins72@example.com</email>
+	</customer>
+	<customer custID="cust6757">
+		<firstName>Pam</firstName>
+		<lastName>Klein</lastName>
+		<street>185 Nina Avenue</street>
+		<city>Ravena</city>
+		<state>NY</state>
+		<zip>12143</zip>
+		<phone>(518) 555-1688</phone>
+		<email>p.klein10@example.com</email>
+	</customer>
+	<customer custID="cust8989">
+		<firstName>Kelly</firstName>
+		<lastName>Brown</lastName>
+		<street>566 Winona Lane</street>
+		<city>Mc Neil</city>
+		<state>AR</state>
+		<zip>71752</zip>
+		<phone>(870) 555-6311</phone>
+		<email>k.brown30@example.com</email>
+	</customer>
+	<customer custID="cust5529">
+		<firstName>Thomas</firstName>
+		<lastName>Chester</lastName>
+		<street>15 2nd State</street>
+		<city>La Luz</city>
+		<state>NM</state>
+		<zip>88337</zip>
+		<phone>(575) 555-7284</phone>
+		<email>t.chester71@example.com</email>
+	</customer>
+	<customer custID="cust8770">
+		<firstName>Ronald</firstName>
+		<lastName>Dunlap</lastName>
+		<street>280 Francis Avenue</street>
+		<city>Denver</city>
+		<state>CO</state>
+		<zip>80239</zip>
+		<phone>(303) 555-2819</phone>
+		<email>r.dunlap99@example.com</email>
+	</customer>
+	<customer custID="cust5223">
+		<firstName>Amber</firstName>
+		<lastName>Anderson</lastName>
+		<street>212 Henry Avenue</street>
+		<city>Jefferson</city>
+		<state>MA</state>
+		<zip>01522</zip>
+		<phone>(508) 555-1938</phone>
+		<email>a.anderson85@example.com</email>
+	</customer>
+	<customer custID="cust8078">
+		<firstName>Bernice</firstName>
+		<lastName>Smith</lastName>
+		<street>562 Arch Street</street>
+		<city>Jasonville</city>
+		<state>IN</state>
+		<zip>47438</zip>
+		<phone>(812) 555-6131</phone>
+		<email>b.smith88@example.com</email>
+	</customer>
+	<customer custID="cust8646">
+		<firstName>Brent</firstName>
+		<lastName>Reed</lastName>
+		<street>702 Delaware Avenue</street>
+		<city>Coyle</city>
+		<state>OK</state>
+		<zip>73027</zip>
+		<phone>(405) 555-5764</phone>
+		<email>b.reed72@example.com</email>
+	</customer>
+	<customer custID="cust8756">
+		<firstName>Ruth</firstName>
+		<lastName>Moody</lastName>
+		<street>703 Clinton Way</street>
+		<city>Fond Du Lac</city>
+		<state>WI</state>
+		<zip>54937</zip>
+		<phone>(920) 555-2178</phone>
+		<email>r.moody86@example.com</email>
+	</customer>
+	<customer custID="cust8394">
+		<firstName>Jamie</firstName>
+		<lastName>Daugherty</lastName>
+		<street>615 Everell Boulevard</street>
+		<city>Gilby</city>
+		<state>ND</state>
+		<zip>58235</zip>
+		<phone>(701) 555-4932</phone>
+		<email>j.daugherty81@example.com</email>
+	</customer>
+	<customer custID="cust2027">
+		<firstName>Betty</firstName>
+		<lastName>Jenkins</lastName>
+		<street>873 Messier Avenue</street>
+		<city>Mount Cory</city>
+		<state>OH</state>
+		<zip>45868</zip>
+		<phone>(419) 555-4947</phone>
+		<email>b.jenkins96@example.com</email>
+	</customer>
+	<customer custID="cust1449">
+		<firstName>Walter</firstName>
+		<lastName>Alaniz</lastName>
+		<street>404 West Giddings Avenue</street>
+		<city>Stone Park</city>
+		<state>IL</state>
+		<zip>60165</zip>
+		<phone>(708) 555-4978</phone>
+		<email>w.alaniz59@example.com</email>
+	</customer>
+	<customer custID="cust8203">
+		<firstName>Stephen</firstName>
+		<lastName>Gilbert</lastName>
+		<street>982 Huron Street</street>
+		<city>Neskowin</city>
+		<state>OR</state>
+		<zip>97149</zip>
+		<phone>(503) 555-2439</phone>
+		<email>s.gilbert12@example.com</email>
+	</customer>
+	<customer custID="cust7962">
+		<firstName>Imogene</firstName>
+		<lastName>Bissonnette</lastName>
+		<street>68 7th Street</street>
+		<city>Oliver Springs</city>
+		<state>TN</state>
+		<zip>37840</zip>
+		<phone>(423) 555-8416</phone>
+		<email>i.bissonnette95@example.com</email>
+	</customer>
+	<customer custID="cust1787">
+		<firstName>Caroline</firstName>
+		<lastName>Euler</lastName>
+		<street>601 Monitor Avenue</street>
+		<city>Ball</city>
+		<state>LA</state>
+		<zip>71405</zip>
+		<phone>(318) 555-8355</phone>
+		<email>c.euler27@example.com</email>
+	</customer>
+	<customer custID="cust6005">
+		<firstName>Alden</firstName>
+		<lastName>Fenris</lastName>
+		<street>122 5th Street</street>
+		<city>Grandfield</city>
+		<state>OK</state>
+		<zip>73546</zip>
+		<phone>(580) 555-6674</phone>
+		<email>a.flake47@example.com</email>
+	</customer>
+	<customer custID="cust6956">
+		<firstName>Jimmie</firstName>
+		<lastName>Crabb</lastName>
+		<street>492 26th Street</street>
+		<city>Merrill</city>
+		<state>IA</state>
+		<zip>51038</zip>
+		<phone>(712) 555-8586</phone>
+		<email>j.crabb49@example.com</email>
+	</customer>
+	<customer custID="cust7061">
+		<firstName>Seth</firstName>
+		<lastName>Cannon</lastName>
+		<street>787 Lynch Avenue</street>
+		<city>Pine Hall</city>
+		<state>NC</state>
+		<zip>27042</zip>
+		<phone>(336) 555-3045</phone>
+		<email>s.cannon11@example.com</email>
+	</customer>
+	<customer custID="cust4031">
+		<firstName>Ernesto</firstName>
+		<lastName>Alvarez</lastName>
+		<street>496 Rutherford Way</street>
+		<city>Cincinnati</city>
+		<state>OH</state>
+		<zip>45244</zip>
+		<phone>(513) 555-8287</phone>
+		<email>j.alvarez3@example.com</email>
+	</customer>
+	<customer custID="cust2868">
+		<firstName>Anthony</firstName>
+		<lastName>Breen</lastName>
+		<street>572 Promontory Lane</street>
+		<city>Sunburst</city>
+		<state>MT</state>
+		<zip>59482</zip>
+		<phone>(406) 555-7277</phone>
+		<email>a.breen34@example.com</email>
+	</customer>
+	<customer custID="cust6854">
+		<firstName>Lawrence</firstName>
+		<lastName>Raper</lastName>
+		<street>734 Perry Way</street>
+		<city>Walthall</city>
+		<state>MS</state>
+		<zip>39771</zip>
+		<phone>(662) 555-1517</phone>
+		<email>l.raper9@example.com</email>
+	</customer>
+	<customer custID="cust5706">
+		<firstName>Jason</firstName>
+		<lastName>Robinson</lastName>
+		<street>245 South Oketo Street</street>
+		<city>Lyndonville</city>
+		<state>NY</state>
+		<zip>14098</zip>
+		<phone>(585) 555-4732</phone>
+		<email>j.robinson22@example.com</email>
+	</customer>
+	<customer custID="cust9968">
+		<firstName>Miguel</firstName>
+		<lastName>Torres</lastName>
+		<street>375 Loyola Way</street>
+		<city>Saint Paul</city>
+		<state>IN</state>
+		<zip>47272</zip>
+		<phone>(317) 555-2646</phone>
+		<email>m.torres63@example.com</email>
+	</customer>
+	<customer custID="cust3518">
+		<firstName>Renee</firstName>
+		<lastName>Duran</lastName>
+		<street>234 Morgan Street</street>
+		<city>Wilsondale</city>
+		<state>WV</state>
+		<zip>25699</zip>
+		<phone>(304) 555-8355</phone>
+		<email>r.duran76@example.com</email>
+	</customer>
+	<customer custID="cust3703">
+		<firstName>Charles</firstName>
+		<lastName>Wilt</lastName>
+		<street>3 8th Street</street>
+		<city>Schenectady</city>
+		<state>NY</state>
+		<zip>12308</zip>
+		<phone>(518) 555-1821</phone>
+		<email>c.wilt24@example.com</email>
+	</customer>
+	<customer custID="cust6105">
+		<firstName>James</firstName>
+		<lastName>Weaver</lastName>
+		<street>48 Doty Street</street>
+		<city>Tinsley</city>
+		<state>MS</state>
+		<zip>39173</zip>
+		<phone>(662) 555-3471</phone>
+		<email>j.weaver6@example.com</email>
+	</customer>
+	<customer custID="cust4892">
+		<firstName>April</firstName>
+		<lastName>Wade</lastName>
+		<street>994 Olson Avenue</street>
+		<city>Fedscreek</city>
+		<state>KY</state>
+		<zip>41524</zip>
+		<phone>(606) 555-4355</phone>
+		<email>a.wade19@example.com</email>
+	</customer>
+	<customer custID="cust6668">
+		<firstName>Donna</firstName>
+		<lastName>Barker</lastName>
+		<street>626 South Navajo Lane</street>
+		<city>Langford</city>
+		<state>SD</state>
+		<zip>57454</zip>
+		<phone>(605) 555-9051</phone>
+		<email>d.barker92@example.com</email>
+	</customer>
+	<customer custID="cust2686">
+		<firstName>Pam</firstName>
+		<lastName>Knoll</lastName>
+		<street>251 50th Lane</street>
+		<city>Apollo Beach</city>
+		<state>FL</state>
+		<zip>33572</zip>
+		<phone>(813) 555-7374</phone>
+		<email>p.knoll96@example.com</email>
+	</customer>
+	<customer custID="cust8114">
+		<firstName>Janie</firstName>
+		<lastName>Ingram</lastName>
+		<street>425 Fletcher Lane</street>
+		<city>Trade</city>
+		<state>TN</state>
+		<zip>37691</zip>
+		<phone>(423) 555-1734</phone>
+		<email>j.ingram67@example.com</email>
+	</customer>
+</customers>

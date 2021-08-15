@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Tutorial Case
+   Terrence Chan
+   3/4/2021
+   Harpe Gaming Store Product Reviews
+
+   Filename:         reviews.xml
+   Supporting Files:
+
+-->
+
+<r:reviews
+ xmlns:r="http://example.com/reviews">
+
+   <r:review cid="22088" pid="vg10552">
+      <r:rating>5</r:rating>
+      <r:reviewDate>2017-11-18</r:reviewDate>
+      <r:title>Another Great Edition in a Great Series</r:title>
+      <r:description>
+         <p>I'm a big fan of this product. As great as Version 11 was, I think this version is
+         more realistic and responsive. It's not perfect. I found the controller system still 
+         a bit too complicated. Muscle memory helps a bit, but it could still use some 
+         improvement.
+         </p>
+         <p>But that's a minor complaint. Compared to other games on the market, this is a great game
+         at a great price.
+         </p>
+         <p>The music I can take or leave. I know that some players really get into the sound track. To
+         me it's a lot of noise and very repetitive. I recommend picking this game up, even if you own 
+         Version 11. It's a substantial upgrade and well worth the price.
+         </p>
+      </r:description>
+   </r:review>
+   <r:review cid="57124" pid="vg10551">
+      <r:rating>5</r:rating>
+      <r:reviewDate>2017-11-18</r:reviewDate>
+      <r:title>My Favorite Workout Video and Workout Game</r:title>
+      <r:description>
+         <p>I've owned all of the Dance Off releases from the beginning. It's my favorite workout
+         video every morning. I have lost 12 pounds with very little modification of my diet.
+         </p>
+         <p>Dance Off just gets better with every release. The song tracks are great. There is a wonderful
+         selection of new and old tracks from around the world; some obscure and others more popular, 
+         including several that are in heavy rotation on the radio right now. Most tracks have several
+         choreographic alternatives that can be unlocked by earning in-game dance points.
+         </p>
+      </r:description>
+   </r:review>
+   <r:review cid="34811" pid="vg10551">
+      <r:rating>3</r:rating>
+      <r:reviewDate>2017-11-17</r:reviewDate>
+      <r:title>Poor Choreography</r:title>
+      <r:description>
+         <p>A so-so release of this well-established title. The user interface is improved and easier to use and
+         game provides a few great songs, a few terrible ones, and several mediocre ones. The graphics are 
+         beautiful and the sets are stunning and fun (without being distracting.)
+         </p>
+         <p>Where this release fails is in the choreography. The dances just aren't as much fun as the previous 
+         titles. Many of the moves follow predictable patterns; they're stale and that's a big problem for a 
+         dance game. I hope the next release improves the choreography because it's great in all other
+         phases of the game.
+         </p>
+      </r:description>
+   </r:review>
+   <r:review cid="41403" pid="vg10551">
+      <r:rating>5</r:rating>
+      <r:reviewDate>2017-11-17</r:reviewDate>
+      <r:title>A Great Gift</r:title>
+      <r:description>
+         <p>I bought this for my 13 year old daughter and her friends. They had exhausted the songs from the
+         earlier releases and looking for a new challenge. This release includes the most current songs with
+         GREAT new moves. My daughter also likes the new format and is getting hours of fun (and exercise!) 
+         out of the game. 
+         </p>
+      </r:description>
+   </r:review>
+   <r:review cid="31115" pid="vg10552">
+      <r:rating>3</r:rating>
+      <r:reviewDate>2017-11-17</r:reviewDate>
+      <r:title>Great Offense Poor Defense - Just Like the Pro's</r:title>
+      <r:description>
+         <p>The game is great when I have the ball and can drive to the rim or dish for the quick 3; but I hate 
+         playing defense. The controls are difficult and unintuitive. Where's the fun when you go in for a jam and
+         then see your opponent do the same to you because your feet are stuck in cement?
+         </p>
+         <p>And don't suggest that I go to Basketball Camp. That stuff sounds good but the tips and lessons don't
+         translate well to game conditions.
+         </p>
+      </r:description>
+   </r:review>
+   <r:review cid="21884" pid="vg10551">
+      <r:rating>5</r:rating>
+      <r:reviewDate>2017-11-17</r:reviewDate>
+      <r:title>A Very Nice Upgrade with Things to Attract All Ages</r:title>
+      <r:description>
+         <p>If you've played any of the previous Dance Off release then you know what to expect from this fun
+         game. New users: give it a try.  It's kind of goofy and a lot of fun and unlike other games, it's a
+         great source of exercise for "couch potatoes. It's not just for kids; sneak in some exercise when your
+         children are away.
+         </p>
+         <p>This new release works the same way as the previous entries in this series: select a song and follow the 
+         animated dancers on the monitor; closely mimic their moves and gain points, fall off the routine and lose
+         points. The songs focus on the current pop stars, but there are a few classic pop and rock standards from 
+         the 70's, 60's, and 50's.
+         </p>
+         <p>Be sure to explore the World Dance mode where you can play with friends online.
+         </p>
+      </r:description>
+   </r:review>
+   <r:review cid="38609" pid="vg10551">
+      <r:rating>1</r:rating>
+      <r:reviewDate>2017-11-16</r:reviewDate>
+      <r:title>Buggy with Poor Tech Support</r:title>
+      <r:description>
+         <p>The installation was buggy and kept crashing my gaming console. I spent several hours on tech support
+         with no solution to my problem. I finally returned it and got my money back. I wish I could give it a
+         zero star rating. FIX IT ANASTA!!!!
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="37890" pid="vg10552">
+      <r:rating>4</r:rating>
+      <r:reviewDate>2017-11-17</r:reviewDate>
+      <r:title>Almost as Good as the Real Thing</r:title>
+      <r:description>
+         <p>I've been waiting for this release. It's a great game and you won't be able to stop playing. I would 
+         recommend this game to the basketball fans, but really anyone can enjoy this one.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="31004" pid="vg10551">
+      <r:rating>5</r:rating>
+      <r:reviewDate>2017-11-16</r:reviewDate>
+      <r:title>Great Fun and Variety</r:title>
+      <r:description>
+         <p>I popped this into my gaming console and was up and dancing in just a few minutes. I did have a few minor
+         problems downloading some of the new music tracks but the company sent me a patch and the issue was
+         quickly resolved.
+         </p>
+         <p><i>Dance Off</i> provides a great variety of songs spanning different genres and a lot of good upbeat pop music. 
+         The group dances are fun too where you and your friends can enjoy goofy and fun choreography. The backgrounds and 
+         costumes have gotten quite elaborate in this new release. I especially enjoyed the Disney-themed stage with characters
+         from several of the Princess movies.
+         </p>
+         <p>A nice bonus is you can also hook up a usb microphone to get karaoke points. This release has it all!!!
+         </p>     
+      </r:description>
+   </r:review>
+   <r:review cid="35693" pid="vg10552">
+      <r:rating>1</r:rating>
+      <r:reviewDate>2017-11-16</r:reviewDate>
+      <r:title>Stopped Working Soon after Purchase</r:title>
+      <r:description>
+         <p>I was so looking forward to this release. I got about 10 games out of it and then my gaming console stopped reading
+         the disk. The disk is clean and free of scratches. All of the other games are still working just fine.
+         </p>     
+      </r:description>
+   </r:review>
+   <r:review cid="45983" pid="vg10551">
+      <r:rating>5</r:rating>
+      <r:reviewDate>2017-11-16</r:reviewDate>
+      <r:title>Keeps Getting Better</r:title>
+      <r:description>
+         <p>I've enjoyed this game from Version 1.0 and this release did not let me down. World Dance is a great new feature that 
+         lets you feel connected to dancers across the world. The have a good mix of old and new songs. The ability to setup a 
+         custom playlist is another feature I love about this game. 
+         </p>
+      </r:description>
+   </r:review>
+   <r:review cid="26727" pid="vg10551">
+      <r:rating>3</r:rating>
+      <r:reviewDate>2017-11-16</r:reviewDate>
+      <r:title>Inappropriate for Some Ages</r:title>
+      <r:description>
+         <p>It's a nice game with some clever graphics; but I found this release with several sound tracks of questionable taste and
+         content to be poorly suited to my younger nieces. The rating should not have been 10+ years of age. It should be older. 
+         They should have provided an age-filter for those of us who care about what our kids are listening to.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="26991" pid="vg10552">
+      <r:rating>2</r:rating>
+      <r:reviewDate>2017-11-16</r:reviewDate>
+      <r:title>Too Many Changes, Too Few Improvements</r:title>
+      <r:description>
+         <p>It's fun but frustrating because you have to basically relearn all the controls and button combinations all over again. 
+         Why did they have to change everything? The enhancements are only okay at best and distracting at worst. My son hates
+         this release and just goes back to Version 11. Save your money and wait for Version 13 (which might be a lucky number
+         for a change.)
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="39541" pid="vg10551">
+      <r:rating>5</r:rating>
+      <r:reviewDate>2017-11-16</r:reviewDate>
+      <r:title>A Great Game and a Great Workout. I Loved the Variety</r:title>
+      <r:description>
+         <p>I've been buying Dance Off since it first came out and I'm really happy with this upgrade. The choreography is difficult 
+         but keep dancing! You'll quickly get the hang of it and then the fun really starts. I sometimes use this game 
+         in place of my morning exercise class. You won't work up a sweat at first because you'll be learning the steps. Once
+         you have the routines mastered, you'll be burning off more calories than in the toughest aerobic workouts.
+         </p>
+         <p>The variety is GREAT! It doesn't include only American pop hits. I love the Latin music stage. I also like the fact
+         that once you learn the dance for the song, you can download other dances for the same song.   </p>
+         <p>I don't like that I'm the only one playing this game at my home, so the World Dance feature is a great bonus. I don't really
+         care about the points system and getting on the "leader board." That's not why I play this game; but if that's your 
+         motivation, then go for it. 
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="21477" pid="vg10551">
+      <r:rating>3</r:rating>
+      <r:reviewDate>2017-11-15</r:reviewDate>
+      <r:title>Not Responsive Enough</r:title>
+      <r:description>
+         <p>This is my first experience with Dance Off. I've danced all of my life, so playing a video game version of dancing 
+         has not interested me. I decided however to give it a try after hearing from my friends how great this game was.
+         </p>
+         <p>The choreography is difficult, but an average dancer will pick it up. I was able follow the steps and get some of the
+         routines mastered. Sometimes however the game doesn't count my moves properly. I had to exaggerate my moves in order
+         to get recognized. I'm petite but that shouldn't make difference.
+         </p>
+         <p>I'll keep this game because I like the exercise aspect of it; but the point system doesn't really work. My advice
+         is to ignore the point counter because it really doesn't work well and you can have enough fun doing the routines.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="19133" pid="vg10552">
+      <r:rating>5</r:rating>
+      <r:reviewDate>2017-11-15</r:reviewDate>
+      <r:title>This Game Changed My Life; It WILL Change Yours</r:title>
+      <r:description>
+         <p>Gather Round and Listen to Me Children, <br />
+         This is the game you've been waiting for.<br />
+         Let it lead you to the Promised Land<br />
+         Of Thunderous Dunks and No Look Passes<br />
+         Ignore your Classes<br />
+         Forget your Friends<br />
+         They are now your Enemies!<br />
+         The Ball is All<br />
+         <br />
+         --- The Whipper
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="19815" pid="vg10551">
+      <r:rating>5</r:rating>
+      <r:reviewDate>2017-11-15</r:reviewDate>
+      <r:title>A hard hard hard Game but well worth the time</r:title>
+      <r:description>
+         <p>The new release of <i>Dance Off</i> is finally here. There are many new and exciting features and the soundtrack shows a
+         great variety of tunes and styles. I was pleasantly surprised by the 80's music stage.
+         </p>
+         <p>There are some flaws with this release. They switched the  format (why???) and you relearn all of your old 
+         moves. Still, it's beautiful and worth the money I like earning points while dancing and I like cashing in 
+         those points to reveal hidden features and stages. The calorie burning data is awesome. That feature is
+         great for those of you who use this game for exercise.   </p>
+         <p>Look for me on the Leader Board, burning up the stage. Ha! 
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="48881" pid="vg10551">
+      <r:rating>3</r:rating>
+      <r:reviewDate>2017-11-15</r:reviewDate>
+      <r:title>Improve the Choreography PLEASE</r:title>
+      <r:description>
+         <p>This is the fifth <i>Dance Off</i> title that I own. The user interface is the best so far and is easy to use. 
+         The music selection is on par with other dance games: a few great songs but some which are best described
+         as "filler." Some games are not improved by adding "more" and this is one of them. I like the graphics and
+         the variety of stages.
+         </p>
+         <p>Still, this only gets 3 stars from me because of the choreography. The dances just aren't as much fun as 
+         they were in previous releases. I think the moves are predictable and repetitive. More variation would have
+         been better. It's a shame because the developers did so much right in other areas of the game.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="43512" pid="vg10551">
+      <r:rating>5</r:rating>
+      <r:reviewDate>2017-11-15</r:reviewDate>
+      <r:title>Loved It</r:title>
+      <r:description>
+         <p>I bought this as a birthday present for my granddaughter. She absolutely loves it.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="42001" pid="vg10552">
+      <r:rating>1</r:rating>
+      <r:reviewDate>2017-11-15</r:reviewDate>
+      <r:title>Lots of Problems</r:title>
+      <r:description>
+         <p>The passing feature on this game is a total waste. The game is sluggish and difficult 
+         to use. You're better off just tossing the ball up in the air and hoping it lands in a teammate's
+         hands. Dribbling is even worse. 
+         </p>
+         <p>Everyone hates refs in a real basketball game, so why do they make the refs an ever-present part of
+         this game? Sure, let's play a game and listen to the refs blow their whistles for the next 10 minutes.
+         Free throws!!! Yeah, that's what we want to do in a basketball simulation!!
+         </p>
+         <p>The only positive thing is the music. Save your money and download the MP3 tracks if that's what turns
+         you on.
+         </p>
+         <p>Dunking is fun, I'll give you that. And I did enjoy pitting the stars of yesteryear against the stars 
+         of today. But this needs some really improvement in Version 13 or I'm outta here. 
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="28760" pid="vg10551">
+      <r:rating>4</r:rating>
+      <r:reviewDate>2017-11-15</r:reviewDate>
+      <r:title>Pretty Good but Limited Use</r:title>
+      <r:description>
+         <p>It's a dance game and one of the best games on the market; however, I found that after a week I had
+         pretty much mastered all of the routines. I'll probably load this one from time to time but not 
+         more than that.
+         </p>
+         <p>If you like dance games, then this is a good one to get.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="50128" pid="vg10551">
+      <r:rating>5</r:rating>
+      <r:reviewDate>2017-11-15</r:reviewDate>
+      <r:title>I Love the New World Dance!!</r:title>
+      <r:description>
+         <p>I just picked this one up and I think it's fantastic!!! Fun songs, great moves! Hours, literally hours
+         of fun with your friends.   </p>
+         <p>What really puts this release over the top is the <b>World Dance stage</b>. I love playing against other dancers
+         across the globe and I've made some new friends that way. It doesn't hurt to see my name on the leader
+         boards either. This feature helped me break out of rut and try new songs and moves.
+         </p>
+         <p>My only complaint is that there are a few songs in which the movement skips. I don't know whether to blame our
+         gaming console or the game itself. I did not notice this problem on earlier releases. Perhaps I need to upgrade
+         my system because the motion control features do require a lot of processing power.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="42188" pid="vg10551">
+      <r:rating>4</r:rating>
+      <r:reviewDate>2017-11-14</r:reviewDate>
+      <r:title>Just Okay</r:title>
+      <r:description>
+         <p>I'm not a big dance game fan (first person shooters are more my interest.) So if you like this kind of game,
+         you'll probably like this release a lot. I think the different dance stages add variety and interest
+         to the game. The music is okay for the most part (the type of music I like wouldn't really work for
+         a dance game.)
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="30144" pid="vg10552">
+      <r:rating>4</r:rating>
+      <r:reviewDate>2017-11-14</r:reviewDate>
+      <r:title>Great Gift</r:title>
+      <r:description>
+         <p>I bought this game for my daughter for her birthday. She absolutely LOVES it. The learning curve was a little
+         steep but once she mastered the game play, there was no stopping her.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="33873" pid="vg10551">
+      <r:rating>4</r:rating>
+      <r:reviewDate>2017-11-13</r:reviewDate>
+      <r:title>Another Nice Release</r:title>
+      <r:description>
+        <p>Another nice release in a venerable and classic title. The graphics are greatly improved for this release and
+        the updated playlist is nice. I like the World Dance stage though I probably won't use it too much. I'm more
+        of a soloist myself. I like to dance but I don't like to compete.   </p>
+        <p>The software could be a bit more responsive however. I found myself making moves that did not register on the
+        screen. And then I began overcompensating for this glitch and that made me feel that I was doing less dancing
+        and more stomping. The movement should be seamless and it's not. However it's still better than any other
+        dance game out there.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="37714" pid="vg10552">
+      <r:rating>4</r:rating>
+      <r:reviewDate>2017-11-13</r:reviewDate>
+      <r:title>Great Game Play, Great Music, Need More Time!</r:title>
+      <r:description>
+        <p>The graphics were amazing and the sound track blew me away. This is a really nice edition of a long-established
+        classic. I especially loved the franchise play and creating my own team of stars from the past and present.
+        I've read about how other people have had trouble playing the game. Have these people every played
+        a sports simulation before? You have to put time into it if you want success.
+        </p>
+        <p>Now, what I didn't like: The timer seemed off. I barely had time to set up my offense when I ran out of time.
+        I've gotten better, but they need to give players the options to extend the timing on the shot clock --- or
+        remove it completely.
+        </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="21921" pid="vg10551">
+      <r:rating>5</r:rating>
+      <r:reviewDate>2017-11-12</r:reviewDate>
+      <r:title>Release the Dancer Inside</r:title>
+      <r:description>
+        <p>Just a fantastic game. It's already given me hours and hours of pleasure. EXTREMELY WELL-DONE!!!
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="28442" pid="vg10551">
+      <r:rating>5</r:rating>
+      <r:reviewDate>2017-11-12</r:reviewDate>
+      <r:title>Great for International Parties</r:title>
+      <r:description>
+        <p>I'm an exchange student here in the United States. I can't tell you how much I enjoyed the World Stage
+        feature of this game. It allows me to reconnect with my friends back home, who I greatly miss! Now,
+        on a Saturday night we can party and the miles don't seem quite as long.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="20014" pid="vg10552">
+      <r:rating>1</r:rating>
+      <r:reviewDate>2017-11-12</r:reviewDate>
+      <r:title>A Big Disappointment</r:title>
+      <r:description>
+         <p>I was really looking forward to this release, but I didn't see anything new and worth my money. It looks
+        like they took the old game, adding a few bells and whistles (and annoying music) but didn't really improve
+        the game play any.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="22783" pid="vg10552">
+      <r:rating>2</r:rating>
+      <r:reviewDate>2017-11-12</r:reviewDate>
+      <r:title>This Title has Been Passed By</r:title>
+      <r:description>
+         <p><i>Net Force</i> used to be the standard in basketball simulation games. However several titles released in
+         the last year have raised the bar. This version looks like the company is standing still and resting on
+         their laurels. I'll wait until Version 13 thanks.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="31552" pid="vg10552">
+      <r:rating>1</r:rating>
+      <r:reviewDate>2017-11-11</r:reviewDate>
+      <r:title>Not Worth the Time or the Effort</r:title>
+      <r:description>
+         <p>I got this gift for my birthday. I'm not much of a sports simulation fan, so I returned it after a few games.
+         I don't understand the attraction.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="27042" pid="vg10552">
+      <r:rating>4</r:rating>
+      <r:reviewDate>2017-11-10</r:reviewDate>
+      <r:title>Still the Best Basketball Game Around</r:title>
+      <r:description>
+         <p>The competition is getting fierce, but <i>Net Force</i> is still a force to be reckoned with in
+         sports simulation industry. I would have wished for a little more innovation in this release (the
+         controller system HAS to be improved.)
+         </p>
+         <p>That being said, no other game provides a better simulation of a real game. And adding the stars
+         of previous decades is a great feature. I even enjoyed the basketball camp.   </p>
+         <p>People who complain about this title are just haters. And haters gotta hate.
+         </p>      
+      </r:description>
+   </r:review>
+   <r:review cid="26714" pid="vg10552">
+      <r:rating>1</r:rating>
+      <r:reviewDate>2017-11-09</r:reviewDate>
+      <r:title>Where's the Quality Control??</r:title>
+      <r:description>
+         <p>The software crashed and crashed again. Tech support gave me the run-around (after spending 2
+         hours trouble-shooting the problem.   </p>
+         <p>Why bother selling a product if you're not going to stand by it and HELP the customer?
+         Where's the quality control?
+         </p>      
+      </r:description>
+   </r:review>
+</r:reviews>

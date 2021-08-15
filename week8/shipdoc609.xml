@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Tutorial Case
+
+   Shipping Document for Shipment 609
+
+   Filename:         ship609.xml
+
+-->
+
+<shipment shipID="Ship609">
+   <shipDateTime>2017-04-05T08:22:00</shipDateTime>
+   <dispatcher>Garson, William</dispatcher>
+   <fromStreet>411 Business Drive</fromStreet>
+   <fromCity>Louisville, KY</fromCity>
+   <fromState>KY</fromState>
+   <fromZip>40216</fromZip>
+   <toName>Tracy Malloy</toName>
+   <toStreet>54 South Delmare Lane</toStreet>
+   <toCity>Twin Brooks</toCity>
+   <toState>SD</toState>
+   <toZip>57269</toZip>
+   <custID>cust1781</custID>
+   <trackingNumber>113468723</trackingNumber>
+   <shipType>Standard</shipType>
+   <weight>4.3 lbs</weight>
+   <items>
+      <itemID qty="7">LL170</itemID>
+   </items>
+</shipment>

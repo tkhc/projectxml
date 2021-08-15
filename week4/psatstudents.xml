@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Tutorial case
+   Author: Terrence Chan
+   Date: 2/17/21
+   PSAT mathematics exam course
+
+   Filename:         psatstudents.xml
+   Supporting Files: course.xsd, course.css, students.css, studentsvb.xsd
+-->
+<?xml-stylesheet type="text/css" href="students.css" ?>
+<?xml-stylesheet type="text/css" href="course.css" ?>
+
+<crs:course courseID="PSAT-080-5"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+        xmlns:crs="http://example.com/higheredtestprep/course/ns"
+        xsi:schemaLocation="http://example.com/higheredtestprep/course/ns course.xsd">
+
+   <crs:name>
+      <crs:title>PSAT Mathematics Course</crs:title>
+      <crs:session>5</crs:session>
+   </crs:name>
+   <crs:description>
+      This is a focused course for students who
+      have previously taken the PSAT exam as a sophomore
+      but did not receive a desired score on the mathematics
+      portion or students who will be taking the PSAT and
+      wish to strengthen their skills in the mathematics
+      area. Outcomes of the course will be measured using
+      the original PSAT mathematics score compared to a
+      course post-test, or a course pre-test compared to the
+      subsequent PSAT mathematics score.
+   </crs:description>
+   <crs:instructor>
+      <crs:firstName>Rachel</crs:firstName>
+      <crs:lastName>Polygoni</crs:lastName>
+   </crs:instructor>
+
+   <stu:students xmlns:stu="http://example.com/higheredtestprep/students/ns"
+            xsi:schemaLocation="http://example.com/higheredtestprep/students/ns studentsvb.xsd">
+      <stu:student stuID="I8900-041" courseID="PSAT-080-5">
+         <stu:lastName>Garcia</stu:lastName>
+         <stu:firstName>Georgianna</stu:firstName>
+         <stu:examDate>2017-10-17</stu:examDate>
+         <stu:pretest level="M">55</stu:pretest>
+         <stu:score>51</stu:score>
+      </stu:student>
+
+      <stu:student stuID="I7711-121" courseID="PSAT-080-5">
+         <stu:lastName>Smith</stu:lastName>
+         <stu:firstName>Ryan</stu:firstName>
+         <stu:examDate>2017-10-17</stu:examDate>
+         <stu:pretest level="L">25</stu:pretest>
+      </stu:student>
+
+      <stu:student stuID="I7012-891" courseID="PSAT-080-5">
+         <stu:lastName>Zheng</stu:lastName>
+         <stu:firstName>Paddy</stu:firstName>
+         <stu:examDate>2017-10-17</stu:examDate>
+         <stu:pretest level="H">65</stu:pretest>
+      </stu:student>
+
+      <stu:student stuID="I8053-891" courseID="PSAT-080-5">
+         <stu:lastName>Steinke</stu:lastName>
+         <stu:firstName>Devon</stu:firstName>
+         <stu:examDate>2017-10-22</stu:examDate>
+         <stu:pretest level="M">51</stu:pretest>
+      </stu:student>
+
+      <stu:student stuID="I8154-741" courseID="PSAT-080-5">
+         <stu:lastName>Browne</stu:lastName>
+         <stu:firstName>Brenda</stu:firstName>
+         <stu:examDate>2017-10-22</stu:examDate>
+         <stu:pretest level="L">30</stu:pretest>
+      </stu:student>
+
+  </stu:students>
+</crs:course>

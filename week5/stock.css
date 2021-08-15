@@ -1,0 +1,154 @@
+/*
+   New Perspectives on XML, 3rd Edition
+   Tutorial 5
+   Tutorial Case
+
+   Chesterton Financial Style Sheet
+  
+   Filename:         stock.css
+   Supporting Files: none
+
+*/
+
+/* Default styles */
+
+* {
+   margin: 0px;
+   list-style: none;
+}
+
+header, section, article {
+   display: block;
+}
+
+
+
+/* Body styles */
+body {
+   background-color: white;
+   font-family: Verdana, Geneva, sans-serif;
+   margin: 10px auto;
+   width: 75%;
+   max-width: 800px;
+}
+
+/* Header styles */
+header section {
+   border: 1px dotted rgb(51, 51, 51);
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+
+   font-size: 0.7em;
+   color: rgb(191, 91, 91);
+   float: right;
+   padding: 4px;
+   margin-top: 5px;
+   text-align: right;
+}
+
+header {
+   font-family: "Times New Roman", serif;
+   margin-bottom: 20px;
+}
+
+header h1 {
+   font-size: 2.8em;
+   font-weight: normal;
+   text-shadow: rgb(111, 111, 111) 5px 5px 8px;
+}
+
+header h2 {
+   font-size: 2.3em;
+   font-weight: normal;
+   color: rgb(211, 211, 211);
+   text-shadow: rgb(0, 0, 0) 1px 1px 0px;
+}
+
+body > section {
+   border: 3px solid rgb(51, 51, 51);
+   -moz-border-radius: 40px;
+   -webkit-border-radius: 40px;
+   border-radius: 40px;
+
+   clear: right;
+   margin: 10px 0px;
+}
+
+body > section > h1 {
+   background-color: transparent;
+   border-bottom: 3px solid rgb(51, 51, 51);
+   color: rgb(101, 101, 101);
+   font-weight: normal;
+   font-size: 1.6em;
+   padding: 5px 0px;
+   text-indent: 40px;
+}
+
+body > section > article {
+   clear: right;
+   margin: 25px;
+}
+
+article > h1 {
+   font-weight: normal;
+   font-size: 1.3em;
+   margin: 0px 0px 15px 0px;
+}
+
+article > h1 > a {
+   color: rgb(51, 51, 51);
+   text-decoration: none;
+}
+
+article > h1 > a:hover {
+   text-decoration: underline;
+   color: rgb(0, 0, 0);
+}
+
+article > img {
+   clear: right;
+   float: right;
+   padding-bottom: 10px;
+   width: 315px;
+}
+
+article > p {
+   font-size: 0.85em;
+   margin: 0px 0px 5px 20px;
+   width: 50%;
+}
+
+article > hr {
+   clear: right;
+}
+
+article:last-of-type hr {
+   visibility: hidden;
+}
+
+table {
+   border-collapse: collapse;
+   clear: right;
+   float: right;
+   margin: 0px;
+   width: 45%;
+}
+
+td, th {
+   border: 1px solid rgb(191, 191, 191);
+   font-weight: normal;
+   font-size: 0.7em;
+   padding: 3px;
+   text-align: right;
+}
+
+table tr:first-of-type th:first-of-type {
+   color: rgb(51, 51, 51);
+   background-color: rgb(211, 211, 211);
+}
+th {
+   background-color: rgb(101, 101, 101);
+   color: white;
+   text-align: center;
+}

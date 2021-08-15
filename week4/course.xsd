@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Tutorial case
+
+   Course information schema
+
+   Filename:         course.xsd
+   Supporting Files:
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://example.com/higheredtestprep/course/ns"
+            targetNamespace="http://example.com/higheredtestprep/course/ns"
+            xmlns:stu="http://example.com/higheredtestprep/students/ns"
+            elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+    <xs:import  namespace="http://example.com/higheredtestprep/students/ns"
+                schemaLocation="studentsvb.xsd" />
+
+   <xs:element name="course">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="name">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="title" type="xs:string" />
+                     <xs:element name="session" type="xs:string" />
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+            <xs:element name="description" type="xs:string" />
+            <xs:element name="instructor">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="firstName" type="xs:string" />
+                     <xs:element name="lastName" type="xs:string" />
+                  </xs:sequence>
+               </xs:complexType>
+             </xs:element>
+             <xs:element ref="stu:students" />
+         </xs:sequence>
+         <xs:attribute name="courseID" type="xs:ID" />
+      </xs:complexType>
+   </xs:element>
+
+</xs:schema>

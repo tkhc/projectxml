@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Tutorial Case
+   Terrence Chan
+   3/4/2021
+   Harpe Gaming Store Customers
+
+   Filename:         customers.xml
+   Supporting Files:
+
+-->
+
+<c:customers 
+ xmlns:c="http://example.com/customers">
+   <c:customer cid="57124">
+      <c:name>Harris, William</c:name>
+      <c:nickname>WillHa85</c:nickname>
+      <c:streetAddress>102 Rose Lane</c:streetAddress>
+      <c:city>Galway</c:city>
+      <c:state>New York</c:state>
+      <c:zip>12074</c:zip>
+   </c:customer>
+   <c:customer cid="22088">
+      <c:name>Lott, Gene</c:name>
+      <c:nickname>LottsoGame81</c:nickname>
+      <c:streetAddress>16 North Lake Drive</c:streetAddress>
+      <c:city>Copper Harbor</c:city>
+      <c:state>Michigan</c:state>
+      <c:zip>49918</c:zip>
+   </c:customer>
+   <c:customer cid="34811">
+      <c:name>Stewart, Paul</c:name>
+      <c:nickname>GoldFry26</c:nickname>
+      <c:streetAddress>55 Ridge Drive</c:streetAddress>
+      <c:city>Sea Island</c:city>
+      <c:state>Georgia</c:state>
+      <c:zip>31561</c:zip>
+   </c:customer>
+   <c:customer cid="31115">
+      <c:name>Stafford, Kelly</c:name>
+      <c:nickname>Jammer77</c:nickname>
+      <c:streetAddress>15 Fordham Avenue</c:streetAddress>
+      <c:city>Middleton</c:city>
+      <c:state>Delaware</c:state>
+      <c:zip>19709</c:zip>
+   </c:customer>
+   <c:customer cid="41403">
+      <c:name>Wise, Joyce</c:name>
+      <c:nickname>Mittens41</c:nickname>
+      <c:streetAddress>4 East Avenue</c:streetAddress>
+      <c:city>Atlanta</c:city>
+      <c:state>Georgia</c:state>
+      <c:zip>30338</c:zip>
+   </c:customer>
+   <c:customer cid="37890">
+      <c:name>Hughes, Vincent</c:name>
+      <c:nickname>HughesThere14</c:nickname>
+      <c:streetAddress>155 Miller Road</c:streetAddress>
+      <c:city>Middleburg</c:city>
+      <c:state>North Carolina</c:state>
+      <c:zip>27556</c:zip>
+   </c:customer>
+   <c:customer cid="35693">
+      <c:name>Goodwynn, Gary</c:name>
+      <c:nickname>Thumber68</c:nickname>
+      <c:streetAddress>19 Nickels Lane</c:streetAddress>
+      <c:city>Visalia</c:city>
+      <c:state>California</c:state>
+      <c:zip>27556</c:zip>
+   </c:customer>
+   <c:customer cid="21884">
+      <c:name>Rivera, Jennifer</c:name>
+      <c:nickname>RivoRiver38</c:nickname>
+      <c:streetAddress>98 Southern Lane</c:streetAddress>
+      <c:city>Springdale</c:city>
+      <c:state>Arkansas</c:state>
+      <c:zip>72765</c:zip>
+   </c:customer>
+   <c:customer cid="26991">
+      <c:name>Smith, James</c:name>
+      <c:nickname>YadaZ49</c:nickname>
+      <c:streetAddress>914 27th Street</c:streetAddress>
+      <c:city>Onyx</c:city>
+      <c:state>California</c:state>
+      <c:zip>93255</c:zip>
+   </c:customer>
+   <c:customer cid="38609">
+      <c:name>Hendrix, Ruby</c:name>
+      <c:nickname>TMZone81</c:nickname>
+      <c:streetAddress>715 Rush Street</c:streetAddress>
+      <c:city>Flagstaff</c:city>
+      <c:state>Arizona</c:state>
+      <c:zip>86003</c:zip>
+   </c:customer>
+   <c:customer cid="31004">
+      <c:name>Nicolas, Oliver</c:name>
+      <c:nickname>OliveNick99</c:nickname>
+      <c:streetAddress>45 Tokenale Road</c:streetAddress>
+      <c:city>Glenwood</c:city>
+      <c:state>Alabama</c:state>
+      <c:zip>36034</c:zip>
+   </c:customer>
+   <c:customer cid="19133">
+      <c:name>Moore, John</c:name>
+      <c:nickname>Whipper11</c:nickname>
+      <c:streetAddress>85 5th Street</c:streetAddress>
+      <c:city>Dallas</c:city>
+      <c:state>Texas</c:state>
+      <c:zip>75310</c:zip>
+   </c:customer>
+   <c:customer cid="42001">
+      <c:name>Frazier, Ed</c:name>
+      <c:nickname>Fazz70</c:nickname>
+      <c:streetAddress>341 Youngston Lane</c:streetAddress>
+      <c:city>Byron</c:city>
+      <c:state>Michigan</c:state>
+      <c:zip>48418</c:zip>
+   </c:customer>
+   <c:customer cid="30144">
+      <c:name>White, Casey</c:name>
+      <c:nickname>theCase23</c:nickname>
+      <c:streetAddress>15 Maple Drive</c:streetAddress>
+      <c:city>Pittsfield</c:city>
+      <c:state>Vermont</c:state>
+      <c:zip>05762</c:zip>
+   </c:customer>
+   <c:customer cid="45983">
+      <c:name>Hightower, Allen</c:name>
+      <c:nickname>Highway66</c:nickname>
+      <c:streetAddress>12804 East Derby Street</c:streetAddress>
+      <c:city>Whittier</c:city>
+      <c:state>California</c:state>
+      <c:zip>90603</c:zip>
+   </c:customer>
+   <c:customer cid="26727">
+      <c:name>Adams, Patricia</c:name>
+      <c:nickname>AdamsP73</c:nickname>
+      <c:streetAddress>62 Uberton Avenue</c:streetAddress>
+      <c:city>Lancaster</c:city>
+      <c:state>California</c:state>
+      <c:zip>93586</c:zip>
+   </c:customer>
+   <c:customer cid="37714">
+      <c:name>Tollender, Grant</c:name>
+      <c:nickname>Unxle04</c:nickname>
+      <c:streetAddress>414 7th Street West</c:streetAddress>
+      <c:city>Palm Bay</c:city>
+      <c:state>Florida</c:state>
+      <c:zip>32910</c:zip>
+   </c:customer>
+   <c:customer cid="21921">
+      <c:name>Purcell, Linda</c:name>
+      <c:nickname>DeeDee05</c:nickname>
+      <c:streetAddress>214 8th Avenue SW</c:streetAddress>
+      <c:city>Omaha</c:city>
+      <c:state>Nebraska</c:state>
+      <c:zip>68127</c:zip>
+   </c:customer>
+   <c:customer cid="39541">
+      <c:name>Bishop, Laura</c:name>
+      <c:nickname>TheBishop01</c:nickname>
+      <c:streetAddress>85 4th Street</c:streetAddress>
+      <c:city>Beech Grove</c:city>
+      <c:state>Arkansas</c:state>
+      <c:zip>72412</c:zip>
+   </c:customer>
+   <c:customer cid="21477">
+      <c:name>Alvarado, Diane</c:name>
+      <c:nickname>AlvyD73</c:nickname>
+      <c:streetAddress>100 Title Street</c:streetAddress>
+      <c:city>Citronelle</c:city>
+      <c:state>Alabama</c:state>
+      <c:zip>36522</c:zip>
+   </c:customer>
+   <c:customer cid="19815">
+      <c:name>Corliss, Julian</c:name>
+      <c:nickname>Catcher05</c:nickname>
+      <c:streetAddress>15 Bernard Lane</c:streetAddress>
+      <c:city>Ridgetop</c:city>
+      <c:state>Tennesse</c:state>
+      <c:zip>37152</c:zip>
+   </c:customer>
+   <c:customer cid="28442">
+      <c:name>Alvarez, Roberta</c:name>
+      <c:nickname>BoBo21</c:nickname>
+      <c:streetAddress>23 Mountain Lane</c:streetAddress>
+      <c:city>Morgantown</c:city>
+      <c:state>West Virginia</c:state>
+      <c:zip>26504</c:zip>
+   </c:customer>
+   <c:customer cid="48881">
+      <c:name>Friesen, Traci</c:name>
+      <c:nickname>FreeBird14</c:nickname>
+      <c:streetAddress>61 Youngley Avenue</c:streetAddress>
+      <c:city>Martindale</c:city>
+      <c:state>Pennsylvania</c:state>
+      <c:zip>17549</c:zip>
+   </c:customer>
+   <c:customer cid="43512">
+      <c:name>Caldwell, Amy</c:name>
+      <c:nickname>Geiger92</c:nickname>
+      <c:streetAddress>7142 Oak Avenue SW</c:streetAddress>
+      <c:city>Avilla</c:city>
+      <c:state>Indiana</c:state>
+      <c:zip>46710</c:zip>
+   </c:customer>
+   <c:customer cid="20014">
+      <c:name>Sparks, Tom</c:name>
+      <c:nickname>Sparky00</c:nickname>
+      <c:streetAddress>41 North Avenue</c:streetAddress>
+      <c:city>Sacramento</c:city>
+      <c:state>California</c:state>
+      <c:zip>94262</c:zip>
+   </c:customer>
+   <c:customer cid="28760">
+      <c:name>Kirkland, Victor</c:name>
+      <c:nickname>CapnKirk81</c:nickname>
+      <c:streetAddress>840 12th Street</c:streetAddress>
+      <c:city>Louisville</c:city>
+      <c:state>Kentucky</c:state>
+      <c:zip>40253</c:zip>
+   </c:customer>
+   <c:customer cid="50128">
+      <c:name>Rinehart, Jay</c:name>
+      <c:nickname>Melon46</c:nickname>
+      <c:streetAddress>142 Davenport Drive</c:streetAddress>
+      <c:city>Mazie</c:city>
+      <c:state>Kentucky</c:state>
+      <c:zip>41160</c:zip>
+   </c:customer>
+   <c:customer cid="22783">
+      <c:name>Wylie, Sean</c:name>
+      <c:nickname>Ginger01</c:nickname>
+      <c:streetAddress>Oak Valley Lane</c:streetAddress>
+      <c:city>Burnside</c:city>
+      <c:state>Illinois</c:state>
+      <c:zip>62318</c:zip>
+   </c:customer>
+   <c:customer cid="42188">
+      <c:name>Eldridge, Dawn</c:name>
+      <c:nickname>DeltaDawn76</c:nickname>
+      <c:streetAddress>815 Sunset Road</c:streetAddress>
+      <c:city>Fort Covington</c:city>
+      <c:state>New York</c:state>
+      <c:zip>12937</c:zip>
+   </c:customer>
+   <c:customer cid="33873">
+      <c:name>Usher, Neil</c:name>
+      <c:nickname>UsherHouse99</c:nickname>
+      <c:streetAddress>212 Clearwater Avenue</c:streetAddress>
+      <c:city>Huntington</c:city>
+      <c:state>West Virginia</c:state>
+      <c:zip>25720</c:zip>
+   </c:customer>
+   <c:customer cid="31552">
+      <c:name>Brown, Robert</c:name>
+      <c:nickname>Escher50</c:nickname>
+      <c:streetAddress>521 Stevenson Street</c:streetAddress>
+      <c:city>Windsor</c:city>
+      <c:state>South Carolina</c:state>
+      <c:zip>29856</c:zip>
+   </c:customer>
+   <c:customer cid="27042">
+      <c:name>Nelson, Zoe</c:name>
+      <c:nickname>Hoops12</c:nickname>
+      <c:streetAddress>14 Tullamore Drive</c:streetAddress>
+      <c:city>Linwood</c:city>
+      <c:state>Maine</c:state>
+      <c:zip>01525</c:zip>
+   </c:customer>
+   <c:customer cid="26714">
+      <c:name>Martin, Gary</c:name>
+      <c:nickname>BigBytes05</c:nickname>
+      <c:streetAddress>16 Auger Avenue</c:streetAddress>
+      <c:city>Evansville</c:city>
+      <c:state>Indiana</c:state>
+      <c:zip>47741</c:zip>
+   </c:customer>
+</c:customers>

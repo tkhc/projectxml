@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<stateStores state="OR" storeCount="3">
+   <store storeID="Store002" market="C" region="Pacific">
+      <street>21 Mountain Drive</street>
+      <city>Beaverton</city>
+      <state>OR</state>
+      <ZIP>97005</ZIP>
+      <phone>(971) 555-2101</phone>
+      <manager>Roy Sexton</manager>
+   </store>
+   <store storeID="Store004" market="B" region="Pacific">
+      <street>71 North Umberland Way</street>
+      <city>Bend</city>
+      <state>OR</state>
+      <ZIP>97702</ZIP>
+      <phone>(458) 555-7689</phone>
+      <manager>Janice Callahan</manager>
+   </store>
+   <store storeID="Store014" market="A" region="Pacific">
+      <street>7662 Faulk Street</street>
+      <city>Portland</city>
+      <state>OR</state>
+      <ZIP>97202</ZIP>
+      <phone>(503) 555-3371</phone>
+      <manager>Beverly Estes</manager>
+   </store>
+</stateStores>

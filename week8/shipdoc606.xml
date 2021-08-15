@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Tutorial Case
+
+   Shipping Document for Shipment 606
+
+   Filename:         ship606.xml
+
+-->
+
+<shipment shipID="Ship606">
+   <shipDateTime>2017-04-04T12:18:00</shipDateTime>
+   <dispatcher>Garson, William</dispatcher>
+   <fromStreet>411 Business Drive</fromStreet>
+   <fromCity>Louisville, KY</fromCity>
+   <fromState>KY</fromState>
+   <fromZip>40216</fromZip>
+   <toName>Brent Reed</toName>
+   <toStreet>702 Delaware Avenue</toStreet>
+   <toCity>Coyle</toCity>
+   <toState>OK</toState>
+   <toZip>73027</toZip>
+   <custID>cust8646</custID>
+   <trackingNumber>113468554</trackingNumber>
+   <shipType>Expedited</shipType>
+   <weight>10.2 lbs</weight>
+   <items>
+      <itemID qty="1">LL489</itemID>
+      <itemID qty="2">LL804</itemID>
+      <itemID qty="2">LL157</itemID>
+      <itemID qty="1">LL612</itemID>
+   </items>
+</shipment>

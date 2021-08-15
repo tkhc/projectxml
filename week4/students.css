@@ -1,0 +1,38 @@
+/*
+   New Perspectives on XML
+   Tutorial 4
+   Tutorial case
+
+   Filename: students.css
+
+   This file contains styles used in the psatstudents.xml file.
+*/
+@namespace "http://example.com/higheredtestprep/students/ns";
+
+students {
+   display: block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12pt;
+}
+student {
+   color: red;
+   margin-left: 40px;
+   margin-top: 20px;
+   display: block;
+}
+lastName, firstName {
+   font-size: 14pt;
+   color: blue;
+   margin-right: 10px;
+}
+examDate {
+   font-weight :bold;
+   color: red;
+   font-family: Times New Roman, Times, serif;
+   margin-left: 20px;
+}
+pretest, score {
+   display: block;
+   font-family: Times New Roman, Times, serif;
+   margin-left: 20px;
+}

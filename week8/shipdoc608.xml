@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 8
+   Tutorial Case
+
+   Shipping Document for Shipment 608
+
+   Filename:         ship608.xml
+
+-->
+
+<shipment shipID="Ship608">
+   <shipDateTime>2017-04-04T17:21:00</shipDateTime>
+   <dispatcher>Anderson, Larry</dispatcher>
+   <fromStreet>411 Business Drive</fromStreet>
+   <fromCity>Louisville, KY</fromCity>
+   <fromState>KY</fromState>
+   <fromZip>40216</fromZip>
+   <toName>Timothy Jones</toName>
+   <toStreet>224 West Keene Way</toStreet>
+   <toCity>Carthage</toCity>
+   <toState>AR</toState>
+   <toZip>71725</toZip>
+   <custID>cust4653</custID>
+   <trackingNumber>113468644</trackingNumber>
+   <shipType>Expedited</shipType>
+   <weight>12.2 lbs</weight>
+   <items>
+      <itemID qty="1">LL587</itemID>
+      <itemID qty="2">LL282</itemID>
+      <itemID qty="8">LL265</itemID>
+   </items>
+</shipment>

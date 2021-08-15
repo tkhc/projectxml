@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Tutorial Case
+   Terrence Chan
+   3/4/2021
+   Harpe Gaming Store Products
+
+   Filename:         products.xml
+   Supporting Files: products.xsl
+
+-->
+<?xml-stylesheet type="text/xsl" href="products.xsl" ?>
+<products>
+    <product pid="vg10551">
+        <title>Dance Off VII</title>
+        <manufacturer>Anasta Games</manufacturer>
+        <price>29.95</price>
+        <releaseDate>2017-09-28</releaseDate>
+        <media>Video Game</media>
+        <image>vg10551.png</image>
+        <summary>
+            <h3>Challenge Yourself with Dance</h3>
+            <p>
+                <i>Dance Off VII</i> is the highly-anticipated sequel in the
+                <i>Dance Off</i> line of dance games, brings even more fun and
+         challenges to your gaming console. Take advantage of your motion-control
+         platform and 50 of the hottest dance tracks to challenge
+         the world - or your best friends - to
+                <i>Dance Off</i>.
+            </p>
+            <p>You wanted the top stars and hit songs and we got 'em for this new release.
+         But don't think we dropped your old favorites and standards. Every
+         track from
+                <i>Dance Off III</i> is available and fully compatible with
+         the new release. An added bonus: downloadable tracks from the top
+         songs on the charts, so you can dance off to current hits.
+            </p>
+            <p>
+                <i>Dance Off VII</i> is the ultimate party game. The challenges are
+         endless. Let the boys challenge the girls or the kids challenge the
+         parents. Go international and stage your own Dance Off Olympics against
+         friends from around the world. Dancers can track their standings on
+         global leader boards and follow stats from dancers around the world.
+            </p>
+        </summary>
+    </product>
+    <product pid="vg10552">
+        <title>Net Force 12</title>
+        <manufacturer>Nitta Sports</manufacturer>
+        <price>35.72</price>
+        <releaseDate>2017-10-03</releaseDate>
+        <media>Video Game</media>
+        <image>vg10552.png</image>
+        <summary>
+            <h3>Take the Battle to the Hardwood</h3>
+            <p>
+                <i>Net Force 12</i> is the latest release in the Net Force series of basketball
+         simulation games. Using motion capture technology designed specifically for
+                <i>Net Force</i>, this release captures the signature moves of the top players in
+         the NBA, . No other basketball simulation has this lineup of stars. Additional
+         features include support for motion-sensor game controllers, dynamic shot
+         generation, touch-sensitive passing, and "flash-to-the-hoop" acceleration
+         for uncontested slam dunks.
+            </p>
+            <p>Go to basketball camp and learn the game the right way with a series of fun
+         and challenging tutorials. Relive the past with stars from the 60's, 70's, 80's,
+         and 90's. Can today's stars hold their own against the champs from the past?
+         You decide.</p>
+            <p>Take your virtual game to a new entertainment level with the dynamic background
+         music and production by some of the top hip-hop artists on the charts. Previous
+         releases of
+                <i>Net Force</i> have already won multiple awards for music and
+         production and this release looks posed to continue that winning streak.
+            </p>
+        </summary>
+    </product>
+</products>

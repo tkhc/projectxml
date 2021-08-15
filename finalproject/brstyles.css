@@ -1,0 +1,142 @@
+/*
+   New Perspectives on XML, 3rd Edition
+   Tutorial 7
+   Tutorial Case
+   Bowline Realty style sheet
+   Filename:         brstyles.css
+   Supporting Files: none
+   Terrence Chan 3/12/2021
+*/
+
+/* Default styles */
+
+* {
+   margin: 0px;
+}
+
+header, section, article {
+   display: block;
+}
+
+
+/* Body styles */
+body {
+   font-family: Verdana, Geneva, sans-serif;
+   background-color: #108080;
+}
+
+div#wrap {
+   background-color: white;
+   margin: 0px auto;
+   width: 1200px;
+   border-left: 2px solid #0b5555;
+   border-right: 2px solid #0b5555;
+   box-shadow: rgb(51, 51, 51) 10px 0px 30px,
+               rgb(51, 51, 51) -10px 0px 30px;
+   padding-bottom: 50px;
+}
+
+
+#headerlogo {
+   text-align: center;
+}
+
+div#wrap >  h1 {
+   font-size: 2.5rem;
+   letter-spacing: 0.12em;
+   font-weight: normal;
+   color: #1bd5d5;
+   text-shadow: black 1px 1px 1px;
+   padding: 15px 0px;
+   font-family: 'Century Gothic', sans-serif;
+   text-align: left;
+   margin-left: 100px;
+}
+
+#city_list {
+   margin: 0px auto;
+   width: 80%;
+   text-align: center;
+   background-color: #c0c9c9;
+   vertical-align: bottom;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-weight: 500;
+   font-size: 1rem;
+   border-radius: 12px;
+}
+
+#city_list a {
+   color: #111;
+   text-decoration: none;
+}
+
+#city_list a:hover {
+   color: #91f3f3;
+   text-decoration: underline;
+}
+
+div#wrap > h2 {
+   margin: 25px 0px 5px 100px;
+   font-weight: 700;
+   font-size: 1.9em;
+   letter-spacing: 0.08em;
+   font-family: 'Century Gothic', sans-serif;
+}
+
+table.head {
+   border-collapse: collapse;
+   margin: 5px 170px 30px 170px;
+   border: 1px solid;
+}
+
+table.head th {
+   font-size: 0.8em;
+   text-align: left;
+   background-color: #1bd5d5;
+   border: 1px solid rgb(91, 91, 91);
+   font-weight: normal;
+   vertical-align: top;
+   padding: 3px;
+   width: 100px;
+}
+
+table.head td {
+   font-size: 0.8em;
+   text-align: left;
+   vertical-align: top;
+   padding: 3px;
+   width: 300px;
+}
+
+table.head td.description {
+   font-family: 'Helvetica Neue';
+   font-size: 1rem;
+   padding: 20px;
+   background-color: #e8fbfb;
+}
+
+table.head td.img {
+   font-family: 'Helvetica Neue';
+   font-size: 1.5rem;
+   padding: 20px;
+   background-color: #e8fbfb;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+div.social-share {
+   background-color: black;
+}
+
+.social-link {
+  max-width: 5%;
+  height: auto;
+  margin: 0.1rem;
+  opacity: 0.5;
+}
+

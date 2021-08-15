@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 5
+   Tutorial Case
+
+   Chesterton Financial Stock Information
+
+   Filename:         stock.xml
+   Supporting Files: down.png, same.png, stock.css, stock.xsl, up.png
+
+-->
+<?xml-stylesheet type="text/xsl" href="stock.xsl" ?>
+<portfolio>
+    <author>Rafael Garcia</author>
+    <date>4/17/2017</date>
+    <time>13:17</time>
+    <stock>
+        <sName symbol="BA">Boeing Company</sName>
+        <description>The Boeing Company engages in the design, development, manufacture, sale, and support
+                   of commercial jetliners, military aircraft, satellites, missile defense,
+                   human space flight, and launch systems and services worldwide. It also offers aviation
+                   services support, aircraft modifications, spares, training, maintenance documents,
+                   and technical advice to commercial and government customers. Its financing portfolio
+                   consists of equipment under operating leases, finance leases, notes and other
+                   receivables, assets held for sale or re-lease, and investments. The Boeing Company
+                   was founded in 1916 and is based in Chicago, Illinois.
+      </description>
+        <category>Industrials</category>
+        <today open="125.68" high="125.72" low="124.81" current="125.68" vol="6274500" />
+    </stock>
+    <stock>
+        <sName symbol="HPQ">Hewlett-Packard Company</sName>
+        <description>Hewlett-Packard Company provides products, technologies, software, solutions, and
+                   services to individual consumers, small-and medium-sized businesses, and large
+                   enterprises, including customers in the government, health, and education sectors
+                   worldwide. Its Software segment offers enterprise information management solutions
+                   for structured and unstructured data, IT management software, and appliance
+                   deployment models. The company was founded in 1939 and is headquartered in
+                   Palo Alto, California.
+      </description>
+        <category>Industrials</category>
+        <today open="23.78" high="25.15" low="23.78" current="23.78" vol="15922600" />
+    </stock>
+    <stock>
+        <sName symbol="LUV">Southwest Airlines Corporation</sName>
+        <description>Southwest Airlines Co. operates passenger airlines that provide scheduled air
+                   transportation services in the United States. It serves 97 destinations in 41 states,
+                   the District of Columbia, and the Commonwealth of Puerto Rico, as well as 6
+                   near-international countries. The company was founded in 1967 and is headquartered
+                   in Dallas, Texas.
+      </description>
+        <category>Transportation</category>
+        <today open="17.21" high="17.94" low="16.77" current="17.73" vol="6554700" />
+    </stock>
+    <stock>
+        <sName symbol="ED">Consolidated Edison Company of New York, Inc.</sName>
+        <description>Consolidated Edison, Inc. engages in regulated electric, gas, and steam delivery
+                   businesses. The company provides electric services to approximately 3.3 million
+                   customers in New York City and Westchester County; gas to approximately 1.1 million
+                   customers in Manhattan, the Bronx and parts of Queens, and Westchester County; and
+                   steam to approximately 1,717 customers in parts of Manhattan. In addition, the company
+                   engages in the sale and related hedging of electricity to wholesale and retail customers.
+                   Consolidated Edison, Inc. was founded in 1884 and is based in New York, New York.
+      </description>
+        <category>Utilities</category>
+        <today open="59.15" high="59.89" low="59.03" current="59.89" vol="1298000" />
+    </stock>
+    <stock>
+        <sName symbol="AA">Aluminum Company of America</sName>
+        <description>Alcoa Inc. engages in the production and management of primary aluminum,
+                   fabricated aluminum, and alumina. Its products are used in aircraft, automobiles,
+                   commercial transportation, packaging, building and construction, oil and gas,
+                   defense, consumer electronics, and industrial applications. Alcoa Inc. was founded
+                   in 1888 and is based in New York, New York.
+      </description>
+        <category>Industrials</category>
+        <today open="9.39" high="9.56" low="9.32" current="9.48" vol="16815260" />
+    </stock>
+    <stock>
+        <sName symbol="AEP">American Electric Power Company, Incorporated</sName>
+        <description>American Electric Power Company, Inc., a public utility holding company, engages
+                   in the generation, transmission, and distribution of electric power to retail
+                   customers. The company generates electricity using coal and lignite, natural gas,
+                   nuclear energy, and hydroelectric energy. It operates primarily in the states of
+                   Arkansas, Indiana, Kentucky, Louisiana, Michigan, Ohio, Oklahoma, Tennessee,
+                   Texas, Virginia, and West Virginia. American Electric Power Company, Inc. was founded
+                   in 1906 and is headquartered in Columbus, Ohio.
+      </description>
+        <category>Utilities</category>
+        <today open="46.92" high="47.15" low="46.25" current="46.25" vol="20315100" />
+    </stock>
+    <stock>
+        <sName symbol="CNI">Canadian National Railway Company</sName>
+        <description>Canadian National Railway Company engages in rail and related transportation business
+                   in North America. It transports various goods, including petroleum and chemicals,
+                   grain and fertilizers, coal, metals and minerals, forest products, intermodal, and
+                   automotive products. The company operates a network of approximately 20,100 route miles
+                   of track that spans Canada and mid-America. The company was founded in 1922 and is
+                   headquartered in Montreal, Canada.
+      </description>
+        <category>Transportation</category>
+        <today open="110.02" high="111.15" low="109.59" current="110.21" vol="573400" />
+    </stock>
+    <stock>
+        <sName symbol="CVX">Chevron Corporation </sName>
+        <description>Chevron Corporation engages in petroleum, chemicals, mining, power generation, and
+                   energy operations worldwide. The Upstream segment is involved in the exploration,
+                   development, and production of crude oil and natural gas. The Downstream segment engages
+                   in refining crude oil into petroleum products; marketing crude oil and refined products.
+                   The company is also involved in coal and molybdenum mining operations. The company was
+                   founded in 1879 and is headquartered in San Ramon, California.
+      </description>
+        <category>Industrials</category>
+        <today open="120.81" high="121.57" low="120.68" current="121.21" vol="8235300" />
+    </stock>
+    <stock>
+        <sName symbol="DAL">Delta Air Lines Inc.</sName>
+        <description>Delta Air Lines, Inc. provides scheduled air transportation for passengers and cargo in
+                   the United States and internationally. The company sells its tickets through various
+                   distribution channels, including telephone reservations, and online travel agencies.
+                   Its also provides aircraft maintenance, repair, and overhaul services for other aviation
+                   and airline customers. The company was founded in 1924 and is headquartered in
+                   Atlanta, Georgia.
+      </description>
+        <category>Transportation</category>
+        <today open="26.07" high="26.35" low="25.89" current="25.89" vol="10321500" />
+    </stock>
+    <stock>
+        <sName symbol="MPC">Marathon Petroleum Corporation</sName>
+        <description>Marathon Petroleum Corporation engages in refining, transporting, and marketing petroleum
+                   products primarily in the United States. The company owns and operates seven
+                   refineries in the Gulf Coast and Midwest regions of the United States. The company
+                   also transports crude oil and other feedstocks to its refineries and other locations.
+                   The company is headquartered in Findlay, Ohio.
+      </description>
+        <category>Industrials</category>
+        <today open="71.28" high="71.28" low="70.17" current="70.91" vol="2550200" />
+    </stock>
+    <stock>
+        <sName symbol="PPL">PPL Resources Incorporated</sName>
+        <description>PPL Corporation, an energy and utility holding company, engages in the generation,
+                   transmission, distribution, and sale of electricity to wholesale and retail customers
+                   in the United States and the United Kingdom. The company develops renewable energy
+                   projects; and provides energy-related products and services to commercial and
+                   industrial customers. PPL Corporation was founded in 1920 and is headquartered in
+                   Allentown, Pennsylvania.
+      </description>
+        <category>Utilities</category>
+        <today open="31.28" high="31.28" low="30.17" current="30.91" vol="4655200" />
+    </stock>
+    <stock>
+        <sName symbol="R">Ryder System, Incorporated</sName>
+        <description>Ryder System, Inc. provides transportation and supply chain management solutions.
+                   It also offers fleet support services, such as fuel, insurance, safety, administration,
+                   environmental management, and information technology services. Ryder System, Inc. serves
+                   customers operating in various industries, such as automotive, food service, electronics,
+                   transportation, consumer packaged goods, grocery, lumber and wood products, and home
+                   furnishings. The company was founded in 1933 and is based in Miami, Florida.
+      </description>
+        <category>Transportation</category>
+        <today open="66.73" high="66.81" low="65.44" current="65.89" vol="763900" />
+    </stock>
+    <stock>
+        <sName symbol="T">ATT Corporation</sName>
+        <description>ATT Inc. provides telecommunications services to consumers, businesses, and other
+                  providers in the United States and internationally. The company operates in three
+                  segments: Wireless, Wireline, and Other. The Wireless segment offers various wireless
+                  voice and data communication services. The Wireline segment provides data services
+                  and network integration. The Other segment provides application management, security
+                  services, and satellite video services. The company was founded in 1983 and is based
+                  in Dallas, Texas.
+      </description>
+        <category>Industrials</category>
+        <today open="36.18" high="36.24" low="35.14" current="35.78" vol="19065800" />
+    </stock>
+    <stock>
+        <sName symbol="UNP">Union Pacific Corporation</sName>
+        <description>Union Pacific Corporation provides rail transportation services in North America.
+                   The company offers freight transportation services for agricultural products,
+                   food, and beverage products; and automotive products. It also provides transportation
+                   services for petrochemicals. In addition, the company offers freight transportation
+                   services for industrial products and construction products. Union Pacific Corporation
+                   was founded in 1862 and is headquartered in Omaha, Nebraska.
+      </description>
+        <category>Transportation</category>
+        <today open="151.58" high="151.89" low="149.78" current="150.23" vol="1714000" />
+    </stock>
+    <stock>
+        <sName symbol="WEC">Wisconsin Energy Corporation</sName>
+        <description>Wisconsin Energy Corporation generates and distributes electric energy, as well as
+                  distributes natural gas. The company provides electric utility services to customers
+                  in the mining, paper, foundry, food products, and machinery production industries.
+                  It also generates, distributes, and sells steam. The company was founded in 1981 and
+                  is headquartered in Milwaukee, Wisconsin.
+      </description>
+        <category>Utilities</category>
+        <today open="42.81" high="43.14" low="42.81" current="42.93" vol="1252000" />
+    </stock>
+</portfolio>

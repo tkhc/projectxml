@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Tutorial case
+
+   Student list schema - Venetian Blind design
+
+   Filename:         studentsvb.xsd
+   Supporting Files:
+-->
+
+<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://example.com/higheredtestprep/students/ns"
+            targetNamespace="http://example.com/higheredtestprep/students/ns"
+            elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+   <xsi:element name="students">
+      <xsi:complexType>
+         <xsi:sequence>
+            <xsi:element name="student" type="sType" minOccurs="1" maxOccurs="unbounded" />
+         </xsi:sequence>
+      </xsi:complexType>
+   </xsi:element>
+
+   <xsi:complexType name="sType">
+      <xsi:group ref="childElements" />
+      <xsi:attributeGroup ref="studentAtt" />
+   </xsi:complexType>
+
+   <xsi:group name="childElements">
+      <xsi:sequence>
+         <xsi:element name="lastName" type="xsi:string" />
+         <xsi:element name="firstName" type="xsi:string" />
+         <xsi:element name="examDate" type="xsi:date" />
+         <xsi:element name="pretest" type="pretestComplex" />
+         <xsi:element name="score" type="pretestType" minOccurs="0" maxOccurs="unbounded" />
+      </xsi:sequence>
+   </xsi:group>
+
+   <xsi:attributeGroup name="studentAtt">
+      <xsi:attribute name="stuID" type="idType" />
+      <xsi:attribute name="courseID" type="courseType" />
+   </xsi:attributeGroup>
+
+   <xsi:complexType name="pretestComplex">
+      <xsi:simpleContent>
+         <xsi:extension base="pretestType">
+            <xsi:attribute name="level" type="levelType" use="required" />
+         </xsi:extension>
+      </xsi:simpleContent>
+   </xsi:complexType>
+
+   <xsi:simpleType name="pretestType">
+      <xsi:restriction base="xsi:decimal">
+         <xsi:minExclusive value="0" />
+         <xsi:maxExclusive value="80" />
+      </xsi:restriction>
+   </xsi:simpleType>
+
+   <xsi:simpleType name="idType">
+      <xsi:restriction base="xsi:ID">
+         <xsi:pattern value="I\d{4}-\d{3}" />
+      </xsi:restriction>
+   </xsi:simpleType>
+
+   <xsi:simpleType name="courseType">
+      <xsi:restriction base="xsi:string">
+         <xsi:pattern value="[A-Z]{4}-\d{3}-\d" />
+      </xsi:restriction>
+   </xsi:simpleType>
+
+   <xsi:simpleType name="levelType">
+      <xsi:restriction base="xsi:string">
+         <xsi:enumeration value="L" />
+         <xsi:enumeration value="M" />
+         <xsi:enumeration value="H" />
+      </xsi:restriction>
+   </xsi:simpleType>
+
+</xsi:schema>
