@@ -1,3 +1,3 @@
 # Project XML
 
-Project for Intro to XML Course
+Tutorials and project for Intro to XML Course at UML
